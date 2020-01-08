@@ -6,8 +6,9 @@ $(document).ready(function(){
   .animate({height: "2vmin", easing: "easeinQuad"}, 600);
 
   $("#mainLogo").delay(2000).animate({
-    top: "0vh", 
-    width: "15vmax", 
+    top: "1vh", 
+    width: "24vmin",
+    height: "11vmin",
     left: ".25vw",
     easing: "easeinQuad" }, 800);
 
@@ -21,8 +22,8 @@ $(document).ready(function(){
     .animate({ left: "78vw", width: "22vw", easing: "easeinBounce"}, 200)
     .animate({ left: "88vw", width: "12vw", easing: "easeinBounce"}, 200);
 
-    $(".navbox").delay(10900).show(100);
-    $(".pushbox").delay(10900).hide(100);
+    $(".navbox").delay(10900).animate({opacity: "1"},100);
+    $(".pushbox").delay(10900).fadeOut(100);
   
   
     $("#mess1")
@@ -33,7 +34,8 @@ $(document).ready(function(){
     .delay(5050)
     .animate({ left: "20vw"  }, 600)
     .delay(2050)
-    .animate({ left: "101vw"}, 600);
+    .animate({ left: "101vw"}, 600)
+    .hide(00);
 
     $("#mess3")
     .delay(8000)
@@ -47,6 +49,27 @@ $(document).ready(function(){
     .delay(400)
     .animate({ left: "-70vw"}, 400);
 
+    //menu enter
+
+    $("#navli1")
+    .delay(11000)
+    .animate({marginLeft: "1vw", easing: "easein"}, 400);
+
+    $("#navli2")
+    .delay(11100)
+    .animate({marginLeft: "1vw", easing: "easein"}, 200);
+
+    $("#navli3")
+    .delay(11200)
+    .animate({marginLeft: "1vw", easing: "easein"}, 200);
+
+    $("#navli4")
+    .delay(11300)
+    .animate({marginLeft: "1vw", easing: "easein"}, 200);
+
+    $("#navli5")
+    .delay(11400)
+    .animate({marginLeft: "1vw", easing: "easein"}, 200);
   });
 
 
