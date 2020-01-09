@@ -49,6 +49,10 @@ $(document).ready(function(){
     .delay(400)
     .animate({ left: "-70vw"}, 400);
 
+    $(".bg")
+    .delay(10600)
+    .slideDown(1200);
+
     //menu enter
 
     $("#navli1")
@@ -70,6 +74,8 @@ $(document).ready(function(){
     $("#navli5")
     .delay(11400)
     .animate({marginLeft: "1vw", easing: "easein"}, 200);
+
+    $(".tagline").delay(11200).fadeIn(1000);
   });
 
 
