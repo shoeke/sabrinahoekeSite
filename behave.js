@@ -76,7 +76,14 @@ $(document).ready(function(){
     .animate({marginLeft: "1vw", easing: "easein"}, 200);
 
     $(".tagline").delay(11200).fadeIn(1000);
+
+   
   });
+  
+  function pageRedirect() {
+    window.location.replace("https://sabrinahoeke.com/staticHome/");
+}      
+setTimeout("pageRedirect()", 13000);
 
 
  
