@@ -153,13 +153,17 @@ main {
     width: 100vw;
     top: 20vmin;
 }
-
+.grid-wrap {
+    max-width: 75vw;
+    margin: 0 auto;
+}
 .grid-contain {
-    width: 60vw;
     display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 5vw;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 2vw;
+
 }
 
 .grid-item {
@@ -167,6 +171,18 @@ main {
     box-shadow: 3px 3px 8px lightgrey;
     transition: transform 400ms ease-in-out;
 } 
+.grid-item img, .grid-item video {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
+}
+.grid-item img {
+    object-fit: cover;
+}
+.work1, .work2 {
+    object-fit: scale-down;
+}
+
 .grid-item:hover {
     transform: scale(1.2);
 }
@@ -174,25 +190,17 @@ main {
     width: 100%;
     height: 100%;
 }
-/*
-.work2 {
-    background-image: url("../images/efileScreenHome.png");
+
+
+@media only screen and (max-width: 758px){
+    .grid-wrap {
+        max-width: 95vw;
+    }
+    .grid-contain {
+
+        grid-template-columns: 50vw;
+
+    
+    }
+
 }
-.work3 {
-    background-image: url("../images/careerwiseScreen.png");
-}
-.work4 {
-    background-image: url("../images/dcScreen.png");
-}
-.work5 {
-    background-image: url("../images/shoekeScreen.png");
-}
-.work6 {
-    background-image: url("../images/jubaleeScreen.png");
-}
-.work7 {
-    background-image: url("../images/gpScreen.png");
-}
-.work8 {
-    background-image: url("../images/efileScreenHome.png");
-}*/
