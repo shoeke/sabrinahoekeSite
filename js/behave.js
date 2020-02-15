@@ -81,7 +81,7 @@ $(document).ready(function(){
   });
   
   function pageRedirect() {
-    window.location.replace("https://sabrinahoeke.com/staticHome/");
+    window.location.replace("../work.html");
 }      
 setTimeout("pageRedirect()", 13000);
 
