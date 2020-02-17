@@ -173,7 +173,7 @@ main {
 }
 .grid-contain {
     display: grid;
-    grid-template-columns: repeat(2, 30vw);
+    grid-template-columns: repeat(2, 28vw);
     grid-template-rows: 290px;
     grid-auto-rows: auto;
     grid-gap: 5vw;
@@ -185,6 +185,8 @@ main {
     justify-self: center;
     box-shadow: 3px 3px 8px lightgrey;
     transition: transform 400ms ease-in-out;
+    position: relative;
+    z-index: 1;
 } 
 .grid-item img, .grid-item video {
     width: 100%;
@@ -192,14 +194,16 @@ main {
     margin-bottom: -5px;
 }
 .grid-item img {
-    object-fit: contain;
+    object-fit: cover;
+
 }
 .work1, .work2 {
     object-fit: inherit;
 }
 
-.grid-item:hover {
-    transform: scale(1.2);
+.grid-item img:hover, .grid-item video:hover {
+    transform: scale(1.5);
+    
 }
 
 .modals {
@@ -211,11 +215,21 @@ main {
 .port-modal {
     background-color: #fff;
     width: 20vw;
-    min-width: 250px;
+    min-width: 175px;
     padding: 2vw;
     border: 5px solid var(--main-color);
     box-shadow: 0 0 0 12px #fff;
     display: none;
+    z-index: 6;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    margin-right: -70%;
+    transform: translate(-30%, -30%) 
+}
+
+.port-modal.odd {
+    left: 55%
 }
 .link-wrap {
     text-align: right;
