@@ -1,13 +1,15 @@
 $(document).ready(function(){
 
     $(".work1").mouseenter(function() {
-        $(".work1-modal").show();
-        $(this).css("z-index", "5");
+        $(".dark-bg").fadeIn(400);
+        $(".work1-modal").fadeIn(400);
+        
     });
+    /*
     $(".work1").mouseleave(function() {
         $(".work1-modal").hide();
         $(this).css("z-index", "1");
-    });
+    });*/
 
     $(".work2").mouseenter(function() {
         $(".work2-modal").show();
