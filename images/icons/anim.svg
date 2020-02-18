@@ -1,0 +1,48 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200.82" height="200.82" viewBox="0 0 200.82 200.82">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="100.41" cy="100.41" r="100.41" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>workIcons</title>
+  <g style="clip-path: url(#clip-path)">
+    <circle cx="100.41" cy="100.41" r="100.41" style="fill: #b2bdc6"/>
+    <g>
+      <circle cx="25.41" cy="124.91" r="29.5" style="fill: #fff"/>
+      <g style="opacity: 0.22">
+        <circle cx="25.41" cy="124.91" r="29.5" style="fill: #f7c100"/>
+      </g>
+    </g>
+    <g>
+      <path d="M165.1,124.47q-.53,1.41-1.11,2.79" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
+      <path d="M160.29,134.72a69,69,0,0,1-118,2.92" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px;stroke-dasharray: 6.244338035583496,8.325784683227539"/>
+      <path d="M40.16,134.07c-.49-.87-1-1.76-1.41-2.65" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
+      <path d="M32.81,114.32c5.89,6.92,14.57,15,22.18,19.21l-15.17,0-11.64,9.73C31.31,135.18,32.76,123.4,32.81,114.32Z" style="fill: #3e4e57"/>
+    </g>
+    <circle cx="154.41" cy="157.91" r="48.5" style="fill: #f7c100"/>
+    <g>
+      <path d="M72.59,37.25c.91-.4,1.83-.79,2.77-1.15" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
+      <path d="M83.16,33.58a69.08,69.08,0,0,1,86.25,66.14" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px;stroke-dasharray: 6.154012203216553,8.205349922180176"/>
+      <path d="M169.33,103.83c-.05,1-.12,2-.21,3" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
+      <path d="M165.1,124.47c-1.33-9-4.41-20.45-8.63-28l12.88,8,15-2.09C177.43,107.58,170,116.8,165.1,124.47Z" style="fill: #3e4e57"/>
+    </g>
+    <g>
+      <circle cx="102.41" cy="27.91" r="42.5" style="fill: #fff"/>
+      <g style="opacity: 0.6">
+        <circle cx="102.41" cy="27.91" r="42.5" style="fill: #f7c100"/>
+      </g>
+    </g>
+    <g>
+      <path d="M32,91.76c.12-1,.27-2,.43-3" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
+      <path d="M34,81.47a69,69,0,0,1,18-30.31" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px;stroke-dasharray: 5.6308441162109375,7.507791996002197"/>
+      <path d="M54.83,48.6c.75-.66,1.52-1.3,2.29-1.93" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
+      <path d="M72.59,37.25C67.05,44.46,61,54.65,58.46,63L55.24,48.14l-12-9.33C51.87,40.16,63.69,39.11,72.59,37.25Z" style="fill: #3e4e57"/>
+    </g>
+  </g>
+  <text transform="matrix(0.97, 0.22, -0.22, 0.97, 66.98, 192.32)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">M</text>
+  <text transform="translate(100.9 198.03) rotate(-6.97)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
+  <text transform="matrix(0.92, -0.4, 0.4, 0.92, 131.21, 192.58)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">T</text>
+  <text transform="translate(153.7 181.08) rotate(-36.21)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">I</text>
+  <text transform="translate(167.42 170.62) rotate(-50.79)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
+  <text transform="matrix(0.35, -0.94, 0.94, 0.35, 186.55, 144.1)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">N</text>
+</svg>

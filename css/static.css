@@ -242,6 +242,9 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+.media video, .media img {
+   box-shadow: 1px 1px 6px #6F7C8E3f;
+}
 .showcase {
     width: 100%;
 }
@@ -280,11 +283,29 @@ span.arrow {
     margin: 1.5vw 0 0;
 }
 .descr-icons > div {
-    background-color: var(--alt-lt-color);
-    opacity: .5;    
+
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 2px 4px #6F7C8E3f;
+}
+.ani {
+    background-image: url("../images/icons/anim.svg");
+}
+.resp {
+    background-image: url("../images/icons/respons.svg");
+}
+.html{
+    background-image: url("../images/icons/html.svg");
+}
+.css{
+    background-image: url("../images/icons/css.svg");
+}
+.js {
+    background-image: url("../images/icons/js.svg");
 }
 
 
