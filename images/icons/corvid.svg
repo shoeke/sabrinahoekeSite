@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="202.64" height="205.32" viewBox="0 0 202.64 205.32">
+  <title>workIcons</title>
+  <circle cx="100.19" cy="100.88" r="100.41" style="fill: #b2bdc6"/>
+  <circle cx="100.19" cy="100.88" r="100.41" style="fill: none"/>
+  <text transform="matrix(0.98, 0.2, -0.2, 0.98, 72.09, 193.04)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">C</text>
+  <text transform="translate(100.97 197.37) rotate(-6.93)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
+  <text transform="matrix(0.91, -0.41, 0.41, 0.91, 132.78, 191.39)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">R</text>
+  <text transform="translate(155.23 179.88) rotate(-40.13)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">V</text>
+  <text transform="matrix(0.6, -0.8, 0.8, 0.6, 174.87, 161.12)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">I</text>
+  <text transform="translate(184.66 147.22) rotate(-66.79)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">D</text>
+  <g>
+    <polygon points="41.52 126.79 41.52 57.9 71.26 76.04 71.26 109.14 99.51 125.92 99.51 160.63 41.52 126.79" style="fill: #657c8e"/>
+    <polygon points="99.51 125.92 129.45 109.8 158.87 126.14 99.51 160.63 99.51 125.92" style="fill: #3e4e57"/>
+    <polygon points="129.45 75.47 158.63 58.8 158.87 126.14 129.45 109.8 129.45 75.47" style="fill: #f8ca26"/>
+    <polygon points="100.36 25.13 158.63 58.8 129.45 75.47 100.36 58.47 71.26 76.04 41.52 57.9 100.36 25.13" style="fill: #fff"/>
+  </g>
+</svg>

@@ -89,7 +89,7 @@ header {
     top: 13vmin;
     background-color: var(--main-color);
     height: 2vmin;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     z-index: -2;
 }
@@ -196,6 +196,12 @@ main {
 .grid-item img {
     object-fit: cover;
 }
+.click-text {
+    text-align: center;
+    margin-top: 15px;
+    color: var(--alt-lt-color);
+    display:none;
+}
 
 
 
@@ -267,12 +273,24 @@ span.arrow {
     width: 100vw;
     height: 100vh;
     z-index: 20;
-    position: fixed;
-    top: 14.75vh;
+    position: stretch;
+    bottom:0vh;
     left: 0;
     background-color: rgba(62, 78, 87, 0.564);
     display: none;
 }
+
+#topline_bg {
+    position: absolute;
+    top: 13vmin;
+    background-color: var(--main-color);
+    height: 2vmin;
+    width: 100vw;
+    margin: 0;
+    z-index: -2;
+}
+
+
 .descr-icons {
     width: 34vw;
     display: flex;
@@ -305,11 +323,18 @@ span.arrow {
 .js {
     background-image: url("../images/icons/js.svg");
 }
+.wix {
+    background-image: url("../images/icons/wix.svg");
+}
+.corvid {
+    background-image: url("../images/icons/corvid.svg");
+}
 .close:hover, .grid-item:hover {
     cursor: pointer;
 }
-.grid-item:hover {
+.grid-item img:hover {
     border: 4px solid var(--main-color);
+    transform: scale(1.15, 1.15);
 }
 
 
