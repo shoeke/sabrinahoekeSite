@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  
 
     $(".close").click(function() {
         $(".modal-container").css("display", "none");
@@ -15,7 +16,7 @@ $(document).ready(function(){
     $(".work2").click(function() {
         $(".work2-modal").css("display", "flex");
         $(".dark-bg").fadeIn(400);
-        $(".work2-modal").fadeIn(400);
+        $(".work2-modal").fadeIn(9000);
     });
     $(".work3").click(function() {
         $(".work3-modal").css("display", "flex");

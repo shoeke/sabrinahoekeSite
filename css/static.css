@@ -181,28 +181,41 @@ main {
 
 }
 
-.grid-item {
+.work-image {
     justify-self: center;
     box-shadow: 3px 3px 8px lightgrey;
     transition: transform 400ms ease-in-out;
     position: relative;
     z-index: 1;
 } 
-.grid-item img, .grid-item video {
+.work-image:hover {
+    
+    transform: scale(1.15, 1.15);
+}
+
+
+.work-image img, .work-image video {
     width: 100%;
     height: 100%;
     margin-bottom: -5px;
+    transition: transform 2s ease-in-out;
 }
-.grid-item img {
+
+.work-image img {
     object-fit: cover;
+}
+.work-image video {
+    object-fit: contain;
 }
 .click-text {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 4vw;
     color: var(--alt-lt-color);
     display:none;
 }
-
+.work-image:hover + .click-text {
+    display: block;
+}
 
 
 .modal-container {
@@ -332,10 +345,7 @@ span.arrow {
 .close:hover, .grid-item:hover {
     cursor: pointer;
 }
-.grid-item img:hover {
-    border: 4px solid var(--main-color);
-    transform: scale(1.15, 1.15);
-}
+
 
 
 
