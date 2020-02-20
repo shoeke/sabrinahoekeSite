@@ -1,4 +1,8 @@
+
+
+
 $(document).ready(function(){
+
 
     $(".close").click(function() {
         $(".modal-container").css("display", "none");
@@ -49,3 +53,4 @@ $(document).ready(function(){
         $(".work8-modal").fadeIn(400);
     });
 });
+

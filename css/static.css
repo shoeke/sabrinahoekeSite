@@ -234,6 +234,10 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+    /* close button for smaller screens only */
+    .closeOne {
+        display: none;
+    }
 .media video, .media img {
     box-shadow: 1px 1px 6px #6F7C8E3f;
  }
@@ -291,7 +295,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
-.close {
+.close, .closeOne {
     border: 1px solid var(--alt-color);
     color: var(--alt-color);
     width: 2vw;
@@ -359,12 +363,19 @@ span.arrow {
         width: 95%;
     }
     .close {
-        width: 25px;
-        height: 25px;
-        font-size: 20px;
-        padding-top: 3px;
-        }
+        display: none;
     }
+    /* close button for smaller screens only */
+.closeOne {
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+    }
+}
+    
     
 
 }
