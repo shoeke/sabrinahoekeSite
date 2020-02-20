@@ -77,11 +77,10 @@ $(document).ready(function(){
 
     $(".tagline").delay(11200).fadeIn(1000);
 
-   
   });
   
   function pageRedirect() {
-    window.location.replace("../work.html");
+    window.location.assign("../work.html");
 }      
 setTimeout("pageRedirect()", 13000);
 

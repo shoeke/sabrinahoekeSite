@@ -3,6 +3,9 @@
 
 $(document).ready(function(){
 
+    $('body').css('display', 'none');
+    $('body').fadeIn(800);
+
 
     $(".close, .closeOne").click(function() {
         $(".modal-container").css("display", "none");
