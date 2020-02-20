@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-  
-
     $(".close").click(function() {
         $(".modal-container").css("display", "none");
         $(".dark-bg").hide();

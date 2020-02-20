@@ -1,10 +1,10 @@
+/* SITE STYLES */
 :root {
     --main-color: #F7C100;
     --alt-color: #3E4E57;
     --alt-lt-color: #6F7C8E;
     --serif-font: 'Josefin Slab', serif;
     --sans-serif-font: 'Comfortaa', cursive;
-
 }
 
 * {
@@ -47,15 +47,11 @@ p, .modal-text {
     color: var(--alt-color)
 
 }
-
-
 body {
 max-width: 100vw;
-
 }
 .stage {
     position: relative;
-
 }
 header {
     position: absolute;
@@ -158,7 +154,7 @@ header {
     }
 }
 
-/* ----- Work Page Styles ------*/
+/* ----- WORK PAGE STYLES ------*/
 
 main {
     position: relative;
@@ -178,35 +174,31 @@ main {
     grid-auto-rows: auto;
     grid-gap: 5vw;
     justify-content: center;
-
+}
+.close:hover, .grid-item:hover {
+    cursor: pointer;
 }
 
+/* portfolio screenshots */
 .work-image {
     justify-self: center;
     box-shadow: 3px 3px 8px lightgrey;
+    /* controls the ease of hover scaling  */
     transition: transform 400ms ease-in-out;
     position: relative;
     z-index: 1;
 } 
+
 .work-image:hover {
-    
     transform: scale(1.15, 1.15);
 }
-
-
+/* image sizing to container */
 .work-image img, .work-image video {
     width: 100%;
     height: 100%;
     margin-bottom: -5px;
-    transition: transform 2s ease-in-out;
 }
-
-.work-image img {
-    object-fit: cover;
-}
-.work-image video {
-    object-fit: contain;
-}
+/* click for more on hover*/
 .click-text {
     text-align: center;
     margin-top: 4vw;
@@ -217,7 +209,8 @@ main {
     display: block;
 }
 
-
+/* - - - MODALS - - - */
+/* modals that show on Click for More*/
 .modal-container {
     z-index: 25;
     position: fixed;
@@ -233,7 +226,65 @@ main {
     display: none;
     justify-content: space-between;
 }
+/* LEFT COLUMN OF MODAL*/
+.media {
+    max-width: 60%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.media video, .media img {
+    box-shadow: 1px 1px 6px #6F7C8E3f;
+ }
+    /* modal screenshots*/
+.showcase {
+    width: 100%;
+}
+    /* modal work icons*/
+    .descr-icons {
+        width: 34vw;
+        display: flex;
+        justify-content: flex-start;
+        margin: 1.5vw 0;
+    }
+    .descr-icons > div {
+        width: 20%;
+        max-width: 5vw;
+        height: 5vw;
+        margin: 2%;
+        border-radius: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 2px 2px 4px #6F7C8E3f;
+    }
+    .ani {
+        background-image: url("../images/icons/anim.svg");
+    }
+    .resp {
+        background-image: url("../images/icons/respons.svg");
+    }
+    .html{
+        background-image: url("../images/icons/html.svg");
+    }
+    .css{
+        background-image: url("../images/icons/css.svg");
+    }
+    .js {
+        background-image: url("../images/icons/js.svg");
+    }
+    .wix {
+        background-image: url("../images/icons/wix.svg");
+    }
+    .corvid {
+        background-image: url("../images/icons/corvid.svg");
+    }
+    .xd {
+        background-image: url("../images/icons/xd.svg");
+    }
 
+/* RIGHT COLUMN OF MODAL*/
 .descr {
     width: 35%;
     display: flex;
@@ -250,20 +301,7 @@ main {
     font-family: var(--serif-font);
     align-self: flex-end;
 }
-.media {
-    max-width: 60%;
-    object-fit: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.media video, .media img {
-   box-shadow: 1px 1px 6px #6F7C8E3f;
-}
-.showcase {
-    width: 100%;
-}
-
+/* link text / arrow to full sites*/
 .link-wrap {
     text-align: right;
 }
@@ -293,74 +331,40 @@ span.arrow {
     display: none;
 }
 
-#topline_bg {
-    position: absolute;
-    top: 13vmin;
-    background-color: var(--main-color);
-    height: 2vmin;
-    width: 100vw;
-    margin: 0;
-    z-index: -2;
-}
-
-
-.descr-icons {
-    width: 34vw;
-    display: flex;
-    justify-content: flex-start;
-    margin: 1.5vw 0;
-}
-.descr-icons > div {
-    width: 20%;
-    max-width: 5vw;
-    height: 5vw;
-    margin: 2%;
-    border-radius: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 2px 2px 4px #6F7C8E3f;
-}
-.ani {
-    background-image: url("../images/icons/anim.svg");
-}
-.resp {
-    background-image: url("../images/icons/respons.svg");
-}
-.html{
-    background-image: url("../images/icons/html.svg");
-}
-.css{
-    background-image: url("../images/icons/css.svg");
-}
-.js {
-    background-image: url("../images/icons/js.svg");
-}
-.wix {
-    background-image: url("../images/icons/wix.svg");
-}
-.corvid {
-    background-image: url("../images/icons/corvid.svg");
-}
-.xd {
-    background-image: url("../images/icons/xd.svg");
-}
-.close:hover, .grid-item:hover {
-    cursor: pointer;
-}
-
-
-
+/*  - - - MEDIA QUERIES - - - */
 
 @media only screen and (max-width: 758px){
     .grid-wrap {
         max-width: 95vw;
     }
     .grid-contain {
-
         grid-template-columns: 50vw;
-
-    
     }
+    .modal-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .media {
+        max-width: 95%;
+    }
+    .descr-icons {
+        width: 100%;
+    }
+    .descr-icons > div {
+        width: 9vw;
+        height: 9vw;
+        max-width: 9vw;
+    }
+    .descr {
+        width: 95%;
+    }
+    .close {
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        padding-top: 3px;
+        }
+    }
+    
 
 }
