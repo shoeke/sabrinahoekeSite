@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202.64" height="205.32" viewBox="0 0 202.64 205.32">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="100.19" cy="100.88" r="100.41" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>workIcons</title>
+  <g style="clip-path: url(#clip-path)">
+    <circle cx="100.19" cy="100.88" r="100.41" style="fill: #b2bdc6"/>
+    <circle cx="100.19" cy="100.88" r="100.41" style="fill: #3e4e57"/>
+    <text transform="translate(55.21 185.98) rotate(22.88)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">A</text>
+    <text transform="translate(78.08 194.66) rotate(7.63)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">D</text>
+    <text transform="translate(104.08 197.3) rotate(-8.78)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
+    <text transform="translate(133.34 191.28) rotate(-25.31)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">B</text>
+    <text transform="matrix(0.77, -0.64, 0.64, 0.77, 155.3, 179.79)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">E</text>
+    <text transform="matrix(0.63, -0.78, 0.78, 0.63, 172.59, 163.83)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700"> </text>
+    <text transform="translate(181.2 152.9) rotate(-62.33)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">X</text>
+    <text transform="matrix(0.21, -0.98, 0.98, 0.21, 191.87, 130.54)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">D</text>
+    <path d="M81.13,29H61.7L40.85,72.63,19.71,29H-.3L28,85.65l-29.34,58H18.46L39.69,99.2l21.48,44.45H82.58L52.34,85Zm53.71,0V58.16h-5.6C110.14,58.16,87,70.48,87,102c0,24.33,12.33,42.61,38.58,42.61,19.34,0,28.44-6.68,28.44-6.68V29Zm0,98.81s-2.21,1-7.43,1-21.24-2.3-21.24-27.7S124.56,73.66,129,73.66s5.84,1.24,5.84,1.24v52.92Z" style="fill: #cfd0e9"/>
+  </g>
+</svg>
