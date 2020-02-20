@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
 
-    $(".close").click(function() {
+    $(".close, .closeOne").click(function() {
         $(".modal-container").css("display", "none");
         $(".dark-bg").hide();
     });

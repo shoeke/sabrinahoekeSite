@@ -78,7 +78,6 @@ header {
     background-repeat: repeat;
     z-index: -2;
     opacity: .1;
-
 }
 #topline_bg {
     position: absolute;
@@ -170,12 +169,11 @@ main {
 .grid-contain {
     display: grid;
     grid-template-columns: repeat(2, 28vw);
-    grid-template-rows: 290px;
     grid-auto-rows: auto;
     grid-gap: 5vw;
     justify-content: center;
 }
-.close:hover, .grid-item:hover {
+.close:hover, .closeOne:hover, .grid-item:hover {
     cursor: pointer;
 }
 
@@ -372,7 +370,6 @@ span.arrow {
     height: 20px;
     font-size: 18px;
     padding-top: 2px;
-    margin-bottom: 10px;
     }
 }
     

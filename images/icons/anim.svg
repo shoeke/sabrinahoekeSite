@@ -4,7 +4,7 @@
       <circle cx="100.41" cy="100.41" r="100.41" style="fill: none"/>
     </clipPath>
   </defs>
-  <title>workIcons</title>
+  <title>motion</title>
   <g style="clip-path: url(#clip-path)">
     <circle cx="100.41" cy="100.41" r="100.41" style="fill: #b2bdc6"/>
     <g>
@@ -28,7 +28,7 @@
     </g>
     <g>
       <circle cx="102.41" cy="27.91" r="42.5" style="fill: #fff"/>
-      <g style="opacity: 0.6">
+      <g style="opacity: 0.6000000000000001">
         <circle cx="102.41" cy="27.91" r="42.5" style="fill: #f7c100"/>
       </g>
     </g>
@@ -38,11 +38,11 @@
       <path d="M54.83,48.6c.75-.66,1.52-1.3,2.29-1.93" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
       <path d="M72.59,37.25C67.05,44.46,61,54.65,58.46,63L55.24,48.14l-12-9.33C51.87,40.16,63.69,39.11,72.59,37.25Z" style="fill: #3e4e57"/>
     </g>
+    <text transform="matrix(0.97, 0.22, -0.22, 0.97, 66.98, 192.32)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">M</text>
+    <text transform="translate(100.9 198.03) rotate(-6.97)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
+    <text transform="matrix(0.92, -0.4, 0.4, 0.92, 131.21, 192.58)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">T</text>
+    <text transform="translate(153.7 181.08) rotate(-36.21)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">I</text>
+    <text transform="translate(167.42 170.62) rotate(-50.79)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
+    <text transform="matrix(0.35, -0.94, 0.94, 0.35, 186.55, 144.1)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">N</text>
   </g>
-  <text transform="matrix(0.97, 0.22, -0.22, 0.97, 66.98, 192.32)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">M</text>
-  <text transform="translate(100.9 198.03) rotate(-6.97)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
-  <text transform="matrix(0.92, -0.4, 0.4, 0.92, 131.21, 192.58)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">T</text>
-  <text transform="translate(153.7 181.08) rotate(-36.21)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">I</text>
-  <text transform="translate(167.42 170.62) rotate(-50.79)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
-  <text transform="matrix(0.35, -0.94, 0.94, 0.35, 186.55, 144.1)" style="font-size: 23.87075424194336px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">N</text>
 </svg>
