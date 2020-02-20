@@ -199,9 +199,15 @@ main {
 /* click for more on hover*/
 .click-text {
     text-align: center;
-    margin-top: 4vw;
+    margin-top: 2vw;
     color: var(--alt-lt-color);
     display:none;
+}
+.grid-item:first-child .click-text {
+    margin-top: 3vw;
+}
+.click-text span {
+    font-weight: 600;
 }
 .work-image:hover + .click-text {
     display: block;
