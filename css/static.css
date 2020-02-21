@@ -348,6 +348,9 @@ span.arrow {
     .grid-contain {
         grid-template-columns: 50vw;
     }
+    .click-text {
+        margin-top: 3vw;
+    }
     .modal-container {
         flex-direction: column;
         align-items: center;

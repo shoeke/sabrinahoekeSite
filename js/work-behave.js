@@ -6,6 +6,12 @@ $(document).ready(function(){
     $('body').css('display', 'none');
     $('body').fadeIn(800);
 
+    // run test on initial page load
+    checkSize();
+
+    // run test on resize of the window
+    $(window).resize(checkSize);
+
 
     $(".close, .closeOne").click(function() {
         $(".modal-container").css("display", "none");
@@ -57,3 +63,22 @@ $(document).ready(function(){
     });
 });
 
+
+
+
+
+//Function to the css rule
+function checkSize(){
+    if (
+        $(".grid-contain").css("grid-template-columns") == "50vw" &&
+        $(".work8").mouseover()
+        ){
+            $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+        }    
+     else if (
+         $(".grid-contain").css("grid-template-columns") == "repeat(2, 28vw)" &&
+         $(".work7, .work8").mouseover()
+        ){
+            $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+        }
+}
