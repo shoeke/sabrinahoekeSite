@@ -1,48 +1,102 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200.82" height="200.82" viewBox="0 0 200.82 200.82">
-  <defs>
-    <clipPath id="clip-path">
-      <circle cx="100.41" cy="100.41" r="100.41" style="fill: none"/>
-    </clipPath>
-  </defs>
-  <title>motion</title>
-  <g style="clip-path: url(#clip-path)">
-    <circle cx="100.41" cy="100.41" r="100.41" style="fill: #b2bdc6"/>
-    <g>
-      <circle cx="25.41" cy="124.91" r="29.5" style="fill: #fff"/>
-      <g style="opacity: 0.22">
-        <circle cx="25.41" cy="124.91" r="29.5" style="fill: #f7c100"/>
-      </g>
-    </g>
-    <g>
-      <path d="M165.1,124.47q-.53,1.41-1.11,2.79" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
-      <path d="M160.29,134.72a69,69,0,0,1-118,2.92" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px;stroke-dasharray: 6.244338035583496,8.325784683227539"/>
-      <path d="M40.16,134.07c-.49-.87-1-1.76-1.41-2.65" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
-      <path d="M32.81,114.32c5.89,6.92,14.57,15,22.18,19.21l-15.17,0-11.64,9.73C31.31,135.18,32.76,123.4,32.81,114.32Z" style="fill: #3e4e57"/>
-    </g>
-    <circle cx="154.41" cy="157.91" r="48.5" style="fill: #f7c100"/>
-    <g>
-      <path d="M72.59,37.25c.91-.4,1.83-.79,2.77-1.15" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
-      <path d="M83.16,33.58a69.08,69.08,0,0,1,86.25,66.14" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px;stroke-dasharray: 6.154012203216553,8.205349922180176"/>
-      <path d="M169.33,103.83c-.05,1-.12,2-.21,3" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
-      <path d="M165.1,124.47c-1.33-9-4.41-20.45-8.63-28l12.88,8,15-2.09C177.43,107.58,170,116.8,165.1,124.47Z" style="fill: #3e4e57"/>
-    </g>
-    <g>
-      <circle cx="102.41" cy="27.91" r="42.5" style="fill: #fff"/>
-      <g style="opacity: 0.6000000000000001">
-        <circle cx="102.41" cy="27.91" r="42.5" style="fill: #f7c100"/>
-      </g>
-    </g>
-    <g>
-      <path d="M32,91.76c.12-1,.27-2,.43-3" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
-      <path d="M34,81.47a69,69,0,0,1,18-30.31" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px;stroke-dasharray: 5.6308441162109375,7.507791996002197"/>
-      <path d="M54.83,48.6c.75-.66,1.52-1.3,2.29-1.93" style="fill: none;stroke: #3e4e57;stroke-miterlimit: 10;stroke-width: 6px"/>
-      <path d="M72.59,37.25C67.05,44.46,61,54.65,58.46,63L55.24,48.14l-12-9.33C51.87,40.16,63.69,39.11,72.59,37.25Z" style="fill: #3e4e57"/>
-    </g>
-    <text transform="matrix(0.97, 0.22, -0.22, 0.97, 66.98, 192.32)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">M</text>
-    <text transform="translate(100.9 198.03) rotate(-6.97)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
-    <text transform="matrix(0.92, -0.4, 0.4, 0.92, 131.21, 192.58)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">T</text>
-    <text transform="translate(153.7 181.08) rotate(-36.21)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">I</text>
-    <text transform="translate(167.42 170.62) rotate(-50.79)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">O</text>
-    <text transform="matrix(0.35, -0.94, 0.94, 0.35, 186.55, 144.1)" style="font-size: 23.870750427246094px;fill: #fff;font-family: Comfortaa-Bold, Comfortaa;font-weight: 700">N</text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200.8 200.8" style="enable-background:new 0 0 200.8 200.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#B2BDC6;}
+	.st2{fill:#FFFFFF;}
+	.st3{opacity:0.22;}
+	.st4{fill:#F7C100;}
+	.st5{fill:none;stroke:#3E4E57;stroke-width:6;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#3E4E57;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:6.2443,8.3258;}
+	.st7{fill:#3E4E57;}
+	.st8{fill:none;stroke:#3E4E57;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:6.154,8.2053;}
+	.st9{opacity:0.6;}
+	.st10{fill:none;stroke:#3E4E57;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:5.6308,7.5078;}
+	.st11{enable-background:new    ;}
+</style>
+<title>motion</title>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="100.4" cy="100.4" r="100.4"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<circle class="st1" cx="100.4" cy="100.4" r="100.4"/>
+		<g>
+			<circle class="st2" cx="25.4" cy="124.9" r="29.5"/>
+			<g class="st3">
+				<circle class="st4" cx="25.4" cy="124.9" r="29.5"/>
+			</g>
+		</g>
+		<g>
+			<path class="st5" d="M165.1,124.5c-0.4,0.9-0.7,1.9-1.1,2.8"/>
+			<path class="st6" d="M160.3,134.7c-18.9,33.1-61.1,44.5-94.2,25.6c-9.7-5.5-17.8-13.3-23.8-22.7"/>
+			<path class="st5" d="M40.2,134.1c-0.5-0.9-1-1.8-1.4-2.6"/>
+			<path class="st7" d="M32.8,114.3c5.9,6.9,14.6,15,22.2,19.2H39.8l-11.6,9.7C31.3,135.2,32.8,123.4,32.8,114.3z"/>
+		</g>
+		<circle class="st4" cx="154.4" cy="157.9" r="48.5"/>
+		<g>
+			<path class="st5" d="M72.6,37.2c0.9-0.4,1.8-0.8,2.8-1.2"/>
+			<path class="st8" d="M83.2,33.6c37-9.5,74.6,12.8,84.1,49.7c1.4,5.4,2.1,10.9,2.2,16.4"/>
+			<path class="st5" d="M169.3,103.8c-0.1,1-0.1,2-0.2,3"/>
+			<path class="st7" d="M165.1,124.5c-1.3-9-4.4-20.4-8.6-28l12.9,8l15-2.1C177.4,107.6,170,116.8,165.1,124.5z"/>
+		</g>
+		<g>
+			<circle class="st2" cx="102.4" cy="27.9" r="42.5"/>
+			<g class="st9">
+				<circle class="st4" cx="102.4" cy="27.9" r="42.5"/>
+			</g>
+		</g>
+		<g>
+			<path class="st5" d="M32,91.8c0.1-1,0.3-2,0.4-3"/>
+			<path class="st10" d="M34,81.5c3.3-11.5,9.5-21.9,18-30.3"/>
+			<path class="st5" d="M54.8,48.6c0.8-0.7,1.5-1.3,2.3-1.9"/>
+			<path class="st7" d="M72.6,37.2C67.1,44.5,61,54.7,58.5,63l-3.2-14.9l-12-9.3C51.9,40.2,63.7,39.1,72.6,37.2z"/>
+		</g>
+		<g class="st11">
+			<path class="st2" d="M91.1,179.1c0.2,0.3,0.2,0.6,0.2,0.9l-3.6,15.7c-0.1,0.3-0.3,0.6-0.6,0.8c-0.3,0.2-0.6,0.2-0.9,0.2
+				c-0.3-0.1-0.6-0.3-0.8-0.5s-0.2-0.6-0.2-0.9l2.6-11.5l-8.2,10.1c-0.4,0.3-0.7,0.5-1.2,0.4c-0.5-0.1-0.8-0.4-0.9-1l-3-12.3
+				L72,192.2c-0.1,0.3-0.3,0.6-0.5,0.8c-0.3,0.2-0.6,0.2-0.9,0.2s-0.6-0.3-0.8-0.5s-0.2-0.6-0.2-0.9l3.6-15.7
+				c0.1-0.3,0.3-0.6,0.5-0.8c0.3-0.2,0.6-0.2,0.9-0.2c0.5,0.1,0.8,0.4,0.9,0.9l3.8,15.3l9.8-12.3c0.3-0.4,0.7-0.5,1.2-0.4
+				C90.6,178.7,90.9,178.9,91.1,179.1z"/>
+		</g>
+		<g class="st11">
+			<path class="st2" d="M114.5,178.6c1.5,0.6,2.8,1.6,3.8,3c1,1.3,1.6,2.9,1.8,4.8c0.2,1.8,0,3.5-0.6,5.1s-1.6,2.8-2.9,3.8
+				c-1.3,1-2.9,1.6-4.7,1.8c-1.8,0.2-3.5,0-5-0.6c-1.5-0.6-2.8-1.6-3.7-3s-1.6-2.9-1.8-4.8c-0.2-1.8,0-3.5,0.6-5
+				c0.6-1.5,1.6-2.8,2.9-3.8c1.3-1,2.9-1.6,4.7-1.8C111.3,177.7,113,177.9,114.5,178.6z M106.3,181.6c-1,0.8-1.7,1.7-2.2,2.9
+				c-0.5,1.2-0.6,2.4-0.4,3.8c0.2,1.4,0.6,2.6,1.4,3.6c0.7,1,1.7,1.8,2.8,2.3c1.2,0.5,2.4,0.7,3.7,0.5s2.5-0.6,3.5-1.4
+				c1-0.8,1.7-1.7,2.2-2.9s0.6-2.4,0.4-3.8c-0.2-1.4-0.6-2.6-1.4-3.6c-0.7-1-1.7-1.8-2.8-2.3c-1.1-0.5-2.4-0.7-3.8-0.5
+				C108.4,180.3,107.3,180.8,106.3,181.6z"/>
+		</g>
+		<g class="st11">
+			<path class="st2" d="M137.8,169.7c0.3,0.1,0.5,0.3,0.6,0.6c0.1,0.3,0.1,0.6,0,0.9c-0.1,0.3-0.3,0.5-0.6,0.6l-4.7,2.1l6,13.9
+				c0.1,0.3,0.1,0.6,0,1c-0.1,0.3-0.3,0.5-0.7,0.7c-0.3,0.1-0.6,0.1-1,0c-0.3-0.1-0.5-0.3-0.7-0.7l-6-13.9l-4.7,2.1
+				c-0.3,0.1-0.6,0.1-0.9,0c-0.3-0.1-0.5-0.3-0.6-0.6c-0.1-0.3-0.1-0.6,0-0.9s0.3-0.5,0.6-0.6l11.7-5.1
+				C137.2,169.6,137.5,169.6,137.8,169.7z"/>
+		</g>
+		<g class="st11">
+			<path class="st2" d="M145.1,164.7c0.1-0.3,0.2-0.6,0.5-0.8c0.3-0.2,0.6-0.3,0.9-0.2c0.3,0.1,0.6,0.2,0.8,0.5l9.5,13
+				c0.2,0.3,0.3,0.6,0.2,0.9c0,0.3-0.2,0.6-0.5,0.8c-0.3,0.2-0.6,0.3-0.9,0.2s-0.6-0.2-0.8-0.5l-9.5-13
+				C145.1,165.3,145,165,145.1,164.7z"/>
+		</g>
+		<g class="st11">
+			<path class="st2" d="M163.8,147.1c1.5-0.6,3.1-0.8,4.8-0.5c1.6,0.3,3.2,1,4.6,2.2c1.4,1.2,2.5,2.5,3.1,4.1
+				c0.6,1.5,0.8,3.1,0.5,4.7c-0.3,1.6-1,3.2-2.2,4.6c-1.2,1.4-2.5,2.4-4.1,3.1c-1.5,0.6-3.1,0.8-4.8,0.4s-3.2-1-4.6-2.2
+				c-1.4-1.2-2.5-2.5-3.1-4c-0.6-1.5-0.8-3.1-0.5-4.7c0.3-1.6,1-3.2,2.2-4.6C160.9,148.7,162.3,147.7,163.8,147.1z M159.9,155
+				c-0.2,1.2,0,2.4,0.4,3.6c0.5,1.2,1.3,2.2,2.3,3.1c1.1,0.9,2.2,1.4,3.5,1.7c1.2,0.2,2.5,0.1,3.6-0.3c1.2-0.4,2.2-1.2,3.1-2.2
+				c0.9-1,1.4-2.2,1.6-3.4c0.2-1.2,0-2.5-0.4-3.6c-0.5-1.2-1.3-2.2-2.3-3.1c-1.1-0.9-2.2-1.4-3.5-1.7c-1.2-0.2-2.5-0.1-3.6,0.3
+				c-1.2,0.4-2.2,1.2-3.1,2.2S160.1,153.8,159.9,155z"/>
+		</g>
+		<g class="st11">
+			<path class="st2" d="M174.7,123.3c-0.1-0.3-0.1-0.6,0-1s0.3-0.6,0.6-0.7c0.3-0.1,0.6-0.1,1,0l15.2,5.7c0.3,0.1,0.6,0.3,0.7,0.6
+				c0.1,0.3,0.1,0.6,0,0.9c-0.1,0.2-0.2,0.3-0.3,0.5c-0.1,0.1-0.3,0.2-0.4,0.3l-16.7,4.9l12.3,4.6c0.3,0.1,0.6,0.3,0.7,0.6
+				c0.1,0.3,0.2,0.6,0,1c-0.1,0.3-0.3,0.6-0.6,0.7c-0.3,0.1-0.6,0.1-1,0l-15.2-5.7c-0.3-0.1-0.6-0.3-0.7-0.6c-0.1-0.3-0.1-0.6,0-0.9
+				c0.1-0.2,0.2-0.3,0.3-0.4c0.1-0.1,0.3-0.2,0.5-0.3l16.7-4.9l-12.3-4.6C175.1,123.8,174.8,123.6,174.7,123.3z"/>
+		</g>
+	</g>
+</g>
 </svg>

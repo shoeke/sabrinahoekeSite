@@ -1,18 +1,5 @@
 /* SITE STYLES */
-:root {
-    --main-color: #F7C100;
-    --alt-color: #3E4E57;
-    --alt-lt-color: #6F7C8E;
-    --serif-font: 'Josefin Slab', serif;
-    --sans-serif-font: 'Comfortaa', cursive;
-}
-
-* {
-    box-sizing: border-box;
-}
-html {
-    font-size: 16px;
-}
+/*
 h1 {
     font-size: 4.5vw;
     font-weight: 300;
@@ -45,7 +32,6 @@ p, .modal-text {
     font-size: .75rem;
     line-height: 1.5;
     color: var(--alt-color)
-
 }
 body {
 max-width: 100vw;
@@ -62,32 +48,16 @@ header {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
-}
+}*/
+/*set to display after splash
 .tagline {
-    text-align: right;
-    padding: 1vmin 2vmin;
     display: block;
 }
-.bg {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 85vh;
-    top: 15vh;
-    background: url("../images/tile.png");
-    background-repeat: repeat;
-    z-index: -2;
-    opacity: .1;
-}
+/*final top position after splash
 #topline_bg {
-    position: absolute;
     top: 13vmin;
-    background-color: var(--main-color);
-    height: 2vmin;
-    width: 100vw;
-    margin: 0;
-    z-index: -2;
-}
+
+/* final header position for logo
 #mainLogo {
     position: absolute;
     top: 1vh;
@@ -96,6 +66,7 @@ header {
     height: 11vmin;
     z-index: 5;
 }
+/*
 .temp-message-box {
     position: absolute;
     left: 20vw;
