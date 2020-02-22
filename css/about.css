@@ -10,6 +10,12 @@ main-about {
     line-height: 1.2;
 }
  - - - - - - - - - */
+ #navli5 a p {
+    margin-left: -15px;
+    color: var(--alt-lt-color);
+    font-size: 1rem;
+ }
+
 .profile {
     display: grid;
     grid-template-columns: repeat(2, 40vw);
@@ -42,11 +48,28 @@ main-about {
     margin-top: 15px;
 }
 .social-icon {
-    width: 3.5vw;
-    height: 3.5vw;
-    background-color: var(--alt-lt-color);
+    width: 3vw;
+    height: 3vw;
     border-radius: 50%;
+    background-size: cover;
 }
+
+.insta {
+    background-image: url("../images/icons/insta-icon.svg");
+}
+.git {
+    background-image: url("../images/icons/github-icon.svg");
+}
+.twitter {
+    background-image: url("../images/icons/twitter-icon.svg");
+}
+.linkedin {
+    background-image: url("../images/icons/linkedin-icon.svg");
+}
+
+
+
+
 .profile-text h2 {
     margin-bottom: 15px;
 }

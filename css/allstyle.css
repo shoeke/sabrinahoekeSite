@@ -116,13 +116,15 @@ header {
 }
 
 .navbox {
-    position: absolute;
-    opacity: 0;
+    position: fixed;
+    opacity: 1;
     left: 90vw;
     width: 10vw;
+    min-width: 80px;
+    
     height: 35vh;
     top: 40vh;
-    padding-left: 1.5vw;
+    padding-left: 3vw;
     background-color: #FBE080;
     display: flex;
     flex-direction: column;
@@ -135,19 +137,19 @@ header {
     border: none;
     height: 2px;
 }
+/* - - position for animation - - 
 #navli1, #navli2, #navli3, #navli4, #navli5 {
     margin-left: 9vw;
-}
-#navli1 a h3:hover, 
-#navli3 a h3:hover, 
-#navli5 a h3:hover {
+}*/
+#navli1 a p:hover, 
+#navli3 a p:hover, 
+#navli5 a p:hover,
+#navli7 a p:hover, 
+#navli9 a p:hover {
     color: var(--alt-lt-color);
     animation: slideOver 200ms ease-in forwards;
 }
 
-
-
-/*
 @keyframes slideOver {
     from {
     margin-left: 0px;
@@ -155,5 +157,5 @@ header {
     to {
     margin-left: -15px;
     }
-}*/
+}
 

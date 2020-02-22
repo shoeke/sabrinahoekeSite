@@ -176,9 +176,11 @@ header {
     border: none;
     height: 2px;
 }
-#navli1, #navli2, #navli3, #navli4, #navli5 {
+
+.nav-menu li {
     margin-left: 9vw;
 }
+/* may not need on splash
 #navli1 a h3:hover, 
 #navli3 a h3:hover, 
 #navli5 a h3:hover {
@@ -193,5 +195,5 @@ header {
     to {
     margin-left: -15px;
     }
-}
+}*/
 
