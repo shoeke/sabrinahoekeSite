@@ -125,17 +125,17 @@ header {
 }
 
 /* ----- WORK PAGE STYLES ------*/
-
+/*
 main {
     position: relative;
     display: flex;
     justify-content: center;
     width: 100vw;
     top: 20vmin;
-}
+}*/
 .grid-wrap {
     max-width: 75vw;
-    margin: 0 auto;
+    margin: 0 auto 4vw;
 }
 .grid-contain {
     display: grid;

@@ -2,6 +2,7 @@
     --main-color: #F7C100;
     --alt-color: #3E4E57;
     --alt-lt-color: #6F7C8E;
+    --hi-lt-color: #d4d9ff;
     --serif-font: 'Josefin Slab', serif;
     --sans-serif-font: 'Comfortaa', cursive;
 
@@ -22,14 +23,17 @@ h1, h2 {
     font-family: var(--serif-font);
 }
 h2 {
-    font-size: 1.5vw;
-    color: var(--alt-color);
+    /*
+    font-size: 1.5vw;*/
+    font-size: 2rem;
+    /*color: var(--alt-color);*/
+    color: var(--alt-lt-color);
 }
 
 h3 {
     font-family:var(--sans-serif-font);
     font-weight: 500;
-    font-size: rem;
+    font-size: 1.5rem;
     color: var(--alt-color);
     line-height: 2;
 }
@@ -46,14 +50,29 @@ p {
     line-height: 1.5;
     color: var(--alt-color)
 }
+.caption {
+    font-family: var(--serif-font);
+    font-weight: 300;
+    font-style: italic;
+    font-size: .8rem;
+    line-height: 1.2;
+}
+/* -- adjusted for about page, check results effecting other pages */
+a {
+    color: var(--alt-lt-color);
+}
+
 
 body {
 max-width: 100vw;
-
+}
+main {
+    position: relative;
+    width: 100vw;
+    top: 20vmin;
 }
 .stage {
     position: relative;
-
 }
 header {
     position: absolute;
@@ -70,6 +89,10 @@ header {
     text-align: right;
     padding: 1vmin 2vmin;
     display: block;
+}
+.tagline h2 {
+    font-size: 1vw;
+    color: var(--alt-lt-color);
 }
 
 /*final top position after splash*/
@@ -121,6 +144,9 @@ header {
     color: var(--alt-lt-color);
     animation: slideOver 200ms ease-in forwards;
 }
+
+
+
 /*
 @keyframes slideOver {
     from {
