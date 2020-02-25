@@ -13,6 +13,7 @@
 html {
     font-size: 16px;
 }
+
 h1 {
     font-size: 4.5vw;
     font-weight: 300;
@@ -76,15 +77,15 @@ max-width: 100vw;
 main {
     position: relative;
     width: 100vw;
-    top: 20vmin;
 }
 .stage {
     position: relative;
 }
 header {
-    position: absolute;
+    /*position: absolute;*/
     height: 13vmin;
     width: 100%;
+    margin-bottom: 6vmin;
     background-color: #fff;
     z-index: -2;
     display: flex;
@@ -126,8 +127,8 @@ header {
     left: 90vw;
     width: 10vw;
     min-width: 80px;
-    
     height: 35vh;
+    max-height: 250px;
     top: 40vh;
     padding-left: 3vw;
     background-color: #FBE080;
@@ -174,6 +175,14 @@ header {
     background-image: url("../images/icons/linkedin-icon.svg");
 }
 
+.separator {
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-top: 3px solid var(--hi-lt-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
 @keyframes slideOver {
     from {
     margin-left: 0px;
@@ -187,5 +196,35 @@ header {
     .navbox {
         display: none;
     }
+}
 
+footer {
+
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .75rem;
+}
+footer p {
+    font-size: .75rem;
+    padding: 5px 0 15px;
+    font-family: var(--serif-font);
+}
+.footer-nav {
+    display: flex; 
+    width: 60%;
+    padding: 15px 0 5px;
+    justify-content: space-around;  
+}
+.footer-nav a {
+    text-decoration: underline;
+    
+}
+
+/* - - - WELCOME page - - - */
+.main-welcome, .temp {
+    height: 700px;
 }

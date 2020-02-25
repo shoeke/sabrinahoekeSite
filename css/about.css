@@ -80,14 +80,12 @@ main-about {
 .profile-text h2 {
     margin-bottom: 15px;
 }
-.separator {
+
+.cnt-sep {
     display: block;
     width: 60vw;
     margin: 40px 0 40px 20vw;
-    height: 5px;
-    border-top: 3px solid var(--hi-lt-color);
-    border-bottom: 1px solid var(--main-color);
-}
+}   
 .add-on {
     margin-left: 20vw;
     width: 60vw;

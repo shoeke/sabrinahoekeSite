@@ -12,6 +12,7 @@
      padding: 40px;
      border: 5px solid #6F7C8E55;
      background: #fff;
+     box-shadow: -3px 3px 5px lightgrey;
  }
 
 .contact-form, .help-cb {
@@ -58,9 +59,10 @@ input[type=text], select, textarea {
 .contact-container {
     width: 75vw;
     max-width: 900px;
+    /*
     position: relative;
-    top: 10vh;
-    margin: 0 auto;
+    top: 10vh;*/
+    margin: 6vmin auto;
     display: grid;
     grid-template-columns: 1fr 45px;
     grid-auto-rows: 1fr;
@@ -82,5 +84,8 @@ input[type=text], select, textarea {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    box-shadow: -3px 3px 5px lightgrey;
   }
+
+  
   

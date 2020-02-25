@@ -2,129 +2,173 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact Hoeke Web and Digital Design</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/allstyle.css">
-        <link rel="stylesheet" href="css/contact.css">
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,300i,400,600,600i&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600&display=swap" rel="stylesheet">
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Hoeke Web and Digital Design</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/allstyle.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,300i,400,600,600i&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600&display=swap" rel="stylesheet">
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js" integrity="sha256-MWsk0Zyox/iszpRSQk5a2iPLeWw0McNkGUAsHOyc/gE=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"
+        integrity="sha256-MWsk0Zyox/iszpRSQk5a2iPLeWw0McNkGUAsHOyc/gE=" crossorigin="anonymous"></script>
 
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
             Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="stage">
-            <div  id="topline_bg">
+    <header>
+        <div id="topline_bg">
+
+        </div>
+        <img id="mainLogo" src="images/hoeke-wdd-logo.svg" alt="">
+        <div class="tagline">
+            <h2>Start Simple, Start Right</h2>
+        </div>
+    </header>
+    <div class="main-contact">
+        <div class="contact-container">
+            <div class="conversation">
+
+                <!--Host Gator Email Form -->
+                <div class="form-container">
+                    <h2>Let's Start a Conversation</h2>
+                    <form class="contact-form" action="http://www.sabrinahoeke.com/cgi-sys/formmail.pl" method="post"
+                        name="hgmailer">
+                        <input type="hidden" name="recipient" value="design@mydomain.com">
+                        <input type="hidden" name="subject" value="FormMail E-Mail">
+
+                        <input type="text" id="fname" name="firstname" value="" placeholder="First name..">
+
+                        <input type="text" id="lname" name="lastname" value="" placeholder="Your last name..">
+
+                        <input type="text" id="companyName" name="companyname" value=""
+                            placeholder="Your company name..">
+
+                        <input type="text" id="bizType" name="businesstype" value="" placeholder="Type of business..">
+
+                        <input type="text" id="website" name="website" value="" placeholder="Website address..">
+
+                        <div class="help-with">
+                            <p>What would you like help with?</p>
+                            <ul class="help-cb">
+                                <li><input type="checkbox" id="logo" name="logo" value="Logo">
+                                    <label for="logo">Logo</label></li>
+                                <li><input type="checkbox" id="branding" name="branding" value="Branding">
+                                    <label for="branding">Branding</label></li>
+                                <li><input type="checkbox" id="website-design" name="website-design"
+                                        value="Website-design">
+                                    <label for="website-design">Website Design</label></li>
+                                <li><input type="checkbox" id="website-implement" name="website-implement"
+                                        value="Website-implement">
+                                    <label for="website-implement">Website Implementation</label></li>
+                                <li><input type="checkbox" id="illo-icon" name="illo-icon" value="illo-icon">
+                                    <label for="illo-icon">Illustration / Icons</label></li>
+                            </ul>
+                        </div>
+                        <textarea id="subject" name="subject" placeholder="Tell me more.."
+                            style="height:200px"></textarea>
+
+                        <div class="submit-area">
+                            <input id="mail-submit" type="button" value="Submit" onclick="hgsubmit();">
+                            <input type="hidden" name="redirect" value="http://www.sabrinahoeke.com/redirect-path">
+                        </div>
+                    </form>
+                </div>
             </div>
-            
-            <header>
-                <div class="tagline">
-                    <h2>Start Simple, Start Right</h2>
+            <div class="more-contact">
+                <div class="social-group">
+                    <div class="social-icon insta"></div>
+                    <div class="social-icon git"></div>
+                    <div class="social-icon twitter"></div>
+                    <div class="social-icon linkedin"></div>
                 </div>
-            </header>
-            <img id = "mainLogo" src="images/hoeke-wdd-logo.svg" alt="">
-            <main class="main-contact">
-                <div class="contact-container">
-                    <div class="conversation">
-                        
-                  <!--Host Gator Email Form -->
-                        <div class="form-container">
-                            <h2>Let's Start a Conversation</h2>
-                            <form class="contact-form" action="http://www.sabrinahoeke.com/cgi-sys/formmail.pl"    method="post" name="hgmailer">
-                                <input type="hidden" name="recipient" value="design@mydomain.com">
-                                <input type="hidden" name="subject" value="FormMail E-Mail">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="separator"></div>
+        <ul class="footer-nav">
+            <li><a href="welcome.html">welcome</a></li>
 
-                                <input type="text" id="fname" name="firstname" value="" placeholder="First name..">
-                                
-                                <input type="text" id="lname" name="lastname" value="" placeholder="Your last name..">
+            <li><a href="work.html">work</a></li>
 
-                                <input type="text" id="companyName" name="companyname" value="" placeholder="Your company name..">
-                                
-                                <input type="text" id="bizType" name="businesstype" value="" placeholder="Type of business..">
+            <li><a href="about.html">about</a></li>
 
-                                <input type="text" id="website" name="website" value="" placeholder="Website address..">
+            <li><a href="contact.html">contact</a></li>
 
-                                <div class="help-with">
-                                    <p>What would you like help with?</p>
-                                    <ul class="help-cb">
-                                        <li><input type="checkbox" id="logo" name="logo" value="Logo">
-                                            <label for="logo">Logo</label></li>
-                                        <li><input type="checkbox" id="branding" name="branding" value="Branding">
-                                            <label for="branding">Branding</label></li>
-                                        <li><input type="checkbox" id="website-design" name="website-design" value="Website-design">
-                                            <label for="website-design">Website Design</label></li>
-                                        <li><input type="checkbox" id="website-implement" name="website-implement" value="Website-implement">
-                                            <label for="website-implement">Website Implementation</label></li>
-                                        <li><input type="checkbox" id="illo-icon" name="illo-icon" value="illo-icon">
-                                            <label for="illo-icon">Illustration / Icons</label></li>
-                                    </ul>
-                                </div>
-                                <textarea id="subject" name="subject" placeholder="Tell me more.." style="height:200px"></textarea>
+            <li><a href="index.html">intro</a></li>
 
-                                <div class="submit-area">
-                                    <input id="mail-submit" type="button" value="Submit" onclick="hgsubmit();">
-                                    <input type="hidden" name="redirect" value="http://www.sabrinahoeke.com/redirect-path">
-                                </div>    
-                            </form>
-                        </div>
-                    </div>
-                    <div class="more-contact">
-                        <div class="social-group">
-                            <div class="social-icon insta"></div>
-                            <div class="social-icon git"></div>
-                            <div class="social-icon twitter"></div>
-                            <div class="social-icon linkedin"></div>
-                        </div>
-                    </div>
+            <li><a
+                    href="mailto:design@sabrinahoeke.com?subject=I'd%20love%20more%20information%20regarding%20.%20.%20.">email</a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p class="">
+                &copy; 2017&#8211;2020 Sabrina Hoeke All rights reserved. No images may be used from this site without
+                permission.
+            </p>
+        </div>
+    </footer>
+    <nav>
+        <div class="navbox">
+            <ul class="nav-menu">
+                <li id="navli1"><a href="welcome.html">
+                        <p>welcome</p>
+                    </a></li>
+                <li id="navli2">
+                    <hr>
+                </li>
+                <li id="navli3"><a href="work.html">
+                        <p>work</p>
+                    </a></li>
+                <li id="navli4">
+                    <hr>
+                </li>
+                <li id="navli5"><a href="about.html">
+                        <p>about</p>
+                    </a></li>
+                <li id="navli6">
+                    <hr>
+                </li>
+                <li id="navli7"><a href="#">
+                        <p>contact</p>
+                    </a></li>
+                <li id="navli8">
+                    <hr>
+                </li>
+                <li id="navli9"><a href="index.html">
+                        <p>intro</p>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
 
-                </div>
-                
-                
-            </main>
-            
-            <nav>
-                <div class="navbox">
-                    <ul class="nav-menu">
-                        <li id="navli1"><a href="welcome.html"><p>welcome</p></a></li>
-                        <li id="navli2"><hr></li>
-                        <li id="navli3"><a href="work.html"><p>work</p></a></li>
-                        <li id="navli4"><hr></li>
-                        <li id="navli5"><a href="about.html"><p>about</p></a></li>
-                        <li id="navli6"><hr ></li>
-                        <li id="navli7"><a href="#"><p>contact</p></a></li>
-                        <li id="navli8"><hr ></li>
-                        <li id="navli9"><a href="index.html"><p>intro</p></a></li>
-                    </ul>
-                </div>
+    <script type="text/javascript">
+        function hgsubmit() {
+            if (/\S+/.test(document.hgmailer.name.value) == false) alert("Please provide your name.");
+            else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) == false) alert("A valid email address is required.");
+            else if (/\S+/.test(document.hgmailer.comment.value) == false) alert("Your email content is needed.");
+            else {
+                document.hgmailer.submit();
+                alert(' Thank you! \n Your email is sent.');
+            }
+        }
+    </script>
+</body>
 
-            </nav>
-
-            <script type="text/javascript">
-                function hgsubmit()
-                {
-                if (/\S+/.test(document.hgmailer.name.value) == false) alert ("Please provide your name.");
-                else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) == false) alert ("A valid email address is required.");
-                 else if (/\S+/.test(document.hgmailer.comment.value) == false) alert ("Your email content is needed.");
-                  else {
-                       document.hgmailer.submit();
-                       alert (' Thank you! \n Your email is sent.');
-                       }
-                }
-                </script>
-            
-        
-     
-    </body>
 </html>
