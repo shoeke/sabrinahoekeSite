@@ -36,6 +36,61 @@
             </header>
             <img id = "mainLogo" src="images/hoeke-wdd-logo.svg" alt="">
             <main class="main-contact">
+                <div class="contact-container">
+                    <div class="conversation">
+                        
+                  <!--Host Gator Email Form -->
+                        <div class="form-container">
+                            <h2>Let's Start a Conversation</h2>
+                            <form class="contact-form" action="http://www.sabrinahoeke.com/cgi-sys/formmail.pl"    method="post" name="hgmailer">
+                                <input type="hidden" name="recipient" value="design@mydomain.com">
+                                <input type="hidden" name="subject" value="FormMail E-Mail">
+
+                                <input type="text" id="fname" name="firstname" value="" placeholder="First name..">
+                                
+                                <input type="text" id="lname" name="lastname" value="" placeholder="Your last name..">
+
+                                <input type="text" id="companyName" name="companyname" value="" placeholder="Your company name..">
+                                
+                                <input type="text" id="bizType" name="businesstype" value="" placeholder="Type of business..">
+
+                                <input type="text" id="website" name="website" value="" placeholder="Website address..">
+
+                                <div class="help-with">
+                                    <p>What would you like help with?</p>
+                                    <ul class="help-cb">
+                                        <li><input type="checkbox" id="logo" name="logo" value="Logo">
+                                            <label for="logo">Logo</label></li>
+                                        <li><input type="checkbox" id="branding" name="branding" value="Branding">
+                                            <label for="branding">Branding</label></li>
+                                        <li><input type="checkbox" id="website-design" name="website-design" value="Website-design">
+                                            <label for="website-design">Website Design</label></li>
+                                        <li><input type="checkbox" id="website-implement" name="website-implement" value="Website-implement">
+                                            <label for="website-implement">Website Implementation</label></li>
+                                        <li><input type="checkbox" id="illo-icon" name="illo-icon" value="illo-icon">
+                                            <label for="illo-icon">Illustration / Icons</label></li>
+                                    </ul>
+                                </div>
+                                <textarea id="subject" name="subject" placeholder="Tell me more.." style="height:200px"></textarea>
+
+                                <div class="submit-area">
+                                    <input id="mail-submit" type="button" value="Submit" onclick="hgsubmit();">
+                                    <input type="hidden" name="redirect" value="http://www.sabrinahoeke.com/redirect-path">
+                                </div>    
+                            </form>
+                        </div>
+                    </div>
+                    <div class="more-contact">
+                        <div class="social-group">
+                            <div class="social-icon insta"></div>
+                            <div class="social-icon git"></div>
+                            <div class="social-icon twitter"></div>
+                            <div class="social-icon linkedin"></div>
+                        </div>
+                    </div>
+
+                </div>
+                
                 
             </main>
             
@@ -55,6 +110,19 @@
                 </div>
 
             </nav>
+
+            <script type="text/javascript">
+                function hgsubmit()
+                {
+                if (/\S+/.test(document.hgmailer.name.value) == false) alert ("Please provide your name.");
+                else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.hgmailer.email.value) == false) alert ("A valid email address is required.");
+                 else if (/\S+/.test(document.hgmailer.comment.value) == false) alert ("Your email content is needed.");
+                  else {
+                       document.hgmailer.submit();
+                       alert (' Thank you! \n Your email is sent.');
+                       }
+                }
+                </script>
             
         
      

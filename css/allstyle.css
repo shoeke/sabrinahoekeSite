@@ -24,9 +24,10 @@ h1, h2 {
 h2 {
     /*
     font-size: 1.5vw;*/
-    font-size: 2rem;
+    font-size: 1.75rem;
     /*color: var(--alt-color);*/
     color: var(--alt-lt-color);
+    margin-bottom: 15px;
 }
 h3 {
     font-family:var(--sans-serif-font);
@@ -54,6 +55,16 @@ p {
     font-style: italic;
     font-size: .8rem;
     line-height: 1.2;
+}
+label {
+    font-family: var(--sans-serif-font);
+    font-weight: 400;
+    font-size: .75rem;
+    color: var(--alt-lt-color);
+}
+input, textarea {
+    font-family: var(--sans-serif-font);
+    font-size: 1rem;
 }
 /* -- adjusted for about page, check results effecting other pages */
 a {
@@ -141,6 +152,26 @@ header {
 #navli9 a p:hover {
     color: var(--alt-lt-color);
     animation: slideOver 200ms ease-in forwards;
+}
+.social-icon {
+    width: 3vw;
+    max-width: 35px;
+    max-height: 35px;
+    height: 3vw;
+    border-radius: 50%;
+    background-size: cover;
+}
+.insta {
+    background-image: url("../images/icons/insta-icon.svg");
+}
+.git {
+    background-image: url("../images/icons/github-icon.svg");
+}
+.twitter {
+    background-image: url("../images/icons/twitter-icon.svg");
+}
+.linkedin {
+    background-image: url("../images/icons/linkedin-icon.svg");
 }
 
 @keyframes slideOver {

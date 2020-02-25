@@ -18,7 +18,8 @@ main-about {
 
 .profile {
     display: grid;
-    grid-template-columns: repeat(2, 40vw);
+    grid-template-columns: repeat(2, 37.5vw);
+    grid-column-gap:5vw ;
 }
 .profile-blk1 {
     display: grid;
@@ -30,7 +31,8 @@ main-about {
     text-align: center;
 }
 .profile-pic img, .social-group, .profile-blk2 p {
-    width: 75%;
+   /* width: 75%;*/
+   width: 100%;
 }
 .profile-pic img {
     box-shadow: -3px 3px 0 2px var(--hi-lt-color);
@@ -38,20 +40,25 @@ main-about {
 .caption-box {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 .profile .caption {
     text-align: right;
-    width: 50%;
+    width: 18vw;
+    max-width: 125px;
 }
 
 .social-group {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-top: 15px;
 }
+/*move to all-style
 .social-icon {
     width: 3vw;
+    max-width: 35px;
+    max-height: 35px;
     height: 3vw;
     border-radius: 50%;
     background-size: cover;
@@ -68,7 +75,7 @@ main-about {
 }
 .linkedin {
     background-image: url("../images/icons/linkedin-icon.svg");
-}
+}*/
 
 .profile-text h2 {
     margin-bottom: 15px;
