@@ -146,6 +146,10 @@ header {
 #navli1, #navli2, #navli3, #navli4, #navli5 {
     margin-left: 9vw;
 }*/
+#navli1, #navli1 img, #navli1 a {
+    display: inline-block;
+}
+
 #navli1 a p:hover, 
 #navli3 a p:hover, 
 #navli5 a p:hover,

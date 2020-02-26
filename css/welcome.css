@@ -3,3 +3,73 @@
     color: var(--alt-lt-color);
     font-size: 1rem;
  }
+
+ .main-welcome {
+     width: 60vw;
+     position: relative;
+     left: 20vw;
+     display: grid;
+     grid-template-columns: repeat(3, 17.5vw);
+     grid-template-rows: auto;
+     column-gap: 4.25vw;
+     row-gap: .5vw;
+ }
+ .welcome-intro, .topic-cards {
+     grid-column: 1 / span 3;
+ }
+ .welcome-intro, .welcome-summary p{
+     width: 30vw;
+ }
+.topic-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 17.5vw);
+    column-gap: 4.25vw;
+}
+.topic-cards h5 {
+    text-transform: uppercase;
+}
+.card-image {
+    width: 6.125vw;
+    height: 6.125vw;
+    position: absolute;
+    top: 0;
+    right: 18px;
+    z-index: 10;
+}
+.impact-image {
+    background: var(--main-color);
+}
+.brand-image {
+    background: var(--hi-lt-color);
+}
+.functionality-image {
+    background: var(--alt-color);
+}
+.topic-title {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 3px 3px;
+    position: absolute;
+    bottom: 0;
+
+
+}
+.title1 {
+    background-color: #f7c20035;
+}
+.title2 {
+    background-color: #d4d9ff35;
+}
+.title3 {
+    background-color: #6F7C8E35;
+}
+.card-head {
+    height: calc(24px + 6.125vw);
+    margin-bottom: 15px;
+    position: relative;
+}
+.summary {
+    grid-column: 2 / span 2;
+}
