@@ -119,11 +119,11 @@ $("#navli9")
   });
 
 
-  /*hold page redirect for testing
+  /*hold page redirect for testing*/
   function pageRedirect() {
-    window.location.assign("../work.html");
+    window.location.assign("../welcome.html").fadeIn("slow");
 }      
-setTimeout("pageRedirect()", 13000);*/
+setTimeout("pageRedirect()", 13000);
 
 
 
