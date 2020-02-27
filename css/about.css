@@ -114,7 +114,6 @@ main-about {
     }
     
     .profile-blk1 {
-        width: 100%;
         grid-template-columns: 18vw 12vw 32vw 18vw 12vw;
         grid-template-rows: auto;
         grid-column-gap: 2vw;
@@ -175,5 +174,15 @@ main-about {
     }
 }
 
+@media only screen and (max-width: 440px) {
+    .profile-blk1 {
+        grid-template-columns: 1vw 25vw 36vw 25vw 1vw;
+        grid-column-gap: 3vw;
+    }
+    .social-group {
+        align-items: flex-end;
+    }
+    
 
+}
     

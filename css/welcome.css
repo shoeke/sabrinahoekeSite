@@ -35,15 +35,18 @@
     top: 0;
     right: 18px;
     z-index: 10;
+    background-size: cover;
 }
 .impact-image {
-    background: var(--main-color);
+    background-image: url("../images/icons/topic-icon-02.svg")
+
 }
 .brand-image {
-    background: var(--hi-lt-color);
+    background-image: url("../images/icons/topic-icon-01.svg")
+
 }
 .functionality-image {
-    background: var(--alt-color);
+    background-image: url("../images/icons/topic-icon-03.svg")
 }
 .topic-title {
     height: 40px;
@@ -69,6 +72,7 @@
     height: calc(24px + 6.125vw);
     margin-bottom: 15px;
     position: relative;
+    color: var(--alt-color);
 }
 .summary {
     grid-column: 2 / span 2;
