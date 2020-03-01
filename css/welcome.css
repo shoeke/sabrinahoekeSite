@@ -222,6 +222,14 @@ body {
 .prop-list {
     margin-left: 15px;
 }
-
+.next-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.next-step span {
+    padding: 10px;
+}
+}
 
 
