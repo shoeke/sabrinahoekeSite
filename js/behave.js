@@ -80,39 +80,39 @@ $(document).ready(function(){
 
 $("#navli1")
 .delay(11000)
-.animate({marginLeft: "1vw", easing: "easein"}, 400);
+.animate({marginLeft: "0", easing: "easein"}, 400);
 
 $("#navli2")
 .delay(11050)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli3")
 .delay(11100)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli4")
 .delay(11150)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli5")
 .delay(11200)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli6")
 .delay(11250)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli7")
 .delay(11300)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli8")
 .delay(11350)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
 $("#navli9")
 .delay(11400)
-.animate({marginLeft: "1vw", easing: "easein"}, 200);
+.animate({marginLeft: "0", easing: "easein"}, 200);
 
     $(".tagline").delay(11200).fadeIn(1000);
 
@@ -121,7 +121,8 @@ $("#navli9")
 
   /*hold page redirect for testing*/
   function pageRedirect() {
-    window.location.assign("../welcome.html").fadeIn("slow");
+    $("body").fadeOut(400);
+    window.location.assign("../welcome.html");
 }      
 setTimeout("pageRedirect()", 13000);
 

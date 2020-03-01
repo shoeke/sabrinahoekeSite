@@ -31,21 +31,58 @@
 
             </div>
             <img id = "mainLogo" src="images/hoeke-wdd-logo.svg" alt="">
+            <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+                <title>hamburger</title>
+                <g id="bg">
+                  <rect x="-1" y="-1" width="77" height="78" style="fill: #fff"/>
+                </g>
+                <g id="stripes">
+                  <g>
+                    <rect x="7" y="10" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
+                    <rect x="7" y="54" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
+                    <rect x="7" y="32" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
+                  </g>
+                </g>
+              </svg>
             <div class="tagline">
-                <h2>Start Simple, Start Right</h2>
+                <h5>Start Simple, Start Right</h5>
             </div>
         </header>
+        <div class="nav-mobile">
+            <ul class="nav-menu">
+                <li class="mobile-nav-item" id="">
+                    <a href="work.html"><p>work</p></a>
+                </li>
+                <li class="mobile-nav-item" id="">
+                    <a href="about.html"><p>about</p></a>
+                </li>
+                <li class="mobile-nav-item" id="">
+                    <a href="contact.html"><p>contact</p></a>
+                </li>
+                <li class="mobile-nav-item" id="">
+                    <a href="index.html"><p>intro</p></a>
+                </li>
+            </ul>
+
+        </div>
         <main class="main-welcome">
             <div class="welcome-grid">
             <section class="welcome-intro">
                 <div class="profile-text">
                     <h2 id="main-layout-name">Welcome</h2>
-                    <h6>What you need from your site?</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati sit officiis aspernatur omnis laborum at dolorum natus rem optio provident placeat, odio aut ipsum eveniet est necessitatibus! Aperiam, eum!
-                    Deleniti neque laboriosam, expedita similique omnis sapiente ea quo numquam! Quos sint aliquam hic illum dolores eaque, optio minus! Natus, fugiat numquam! Officiis ullam quas veritatis ipsum quae eligendi libero?
+                    <h6>Do you need a website?</h6>
+                    <p>It's pretty well established at this point in time that a modern business needs a website. Even if you have a non-tech, brick and mortar, or a side gig business doing photography or house painting, potential customers use the web to establish who you are, if you're trustworthy,and if they would like to do business with you. The options you might be faced with are cookie cutter sites that are too big or general to fit your needs, or you're left to your own devices trying to throw a one page site together in your spare time. Neither option is a good fit for representing you and your business to the world.
                    </p>
+                   <br>
+                   <h6>How do you begin?</h6>
+                   <p>While a website certain should be simple, it does need focused thought and consideration as to what goes into it. Taking the step to carefully establish brand colors, fonts, and imagery can create a look that becomes familar and recognizable to your clients. That in turn builds trust for them to award you business!Starting out on the right foot is very important. You can certain evolve the further down the road you get, but you wont' need to completely change your identity and disrupt your audience if you're building off of a solid core. Taking the time to consider a style-brand will also help printed materials or ads, as you will have guide to build from and won't need to reinvent the wheel.</p>
+                   <br>
+                   <p>Is your current site fulfilling it's needs. Here's what it should be providing your business.</p>
                 </div>
                 <div class="separator cnt-sep"></div>
+            </section>
+            <section class="welcome-image-cell">
+                <div class="welcome-image"></div>
             </section>
             <section class="topic-cards">
                     <div class="impact card">
@@ -102,14 +139,17 @@
             <section class="summary">
                 <div class="separator cnt-sep"></div>
                 <div class="welcome-summary">
-                    <h6>Ready for to move forward?</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nostrum error consectetur perspiciatis! Ipsum optio ea eligendi voluptate doloribus veritatis quis, nisi delectus. Fugiat deleniti ab tempora quisquam quibusdam quasi!</p>
+                    <h6>Is now the right time?</h6>
+                    <p>If your site isn't accomplishing all it should, it might be time for upgrade. Or if now is the time to begin your online presence, you can start simply but start right so your professionalism shines through to all your potential customers. </p>
+                    <br>
+                    <a href="">Check out some work</a><span> OR </span>
+                    <a href="">Drop me a line.</a>
                 </div>
             </section>
         </div>
         </main>
         <footer>
-            <div class="separator"></div>
+            <div class="footer-topline"></div>
             <ul class="footer-nav">
                 <li><a href="welcome.html">welcome</a></li>
     
@@ -151,6 +191,6 @@
             </nav>
             
         
-     
+            <script src="js/page-behave.js" async defer></script>
     </body>
 </html>

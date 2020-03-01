@@ -60,6 +60,13 @@ h4 {
     color: var(--alt-lt-color);
     margin-bottom: .5rem;
 }
+h5 {
+    font-family: var(--serif-font);
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--alt-color);
+    font-weight: 600;
+}
 p {
     font-family: var(--sans-serif-font);
     font-size: .75rem;
@@ -95,6 +102,10 @@ header {
     text-align: right;
     padding: 1vmin 2vmin;
     display: none;
+}
+.tagline h5 {
+    color: var(--alt-lt-color);
+    text-transform: none;
 }
 /*top position until animation*/
 #topline_bg {
@@ -157,13 +168,14 @@ header {
 }
 
 .navbox {
-    position: absolute;
+    position: fixed;
     opacity: 0;
     left: 90vw;
     width: 10vw;
     height: 35vh;
+    max-height: 250px;
     top: 40vh;
-    padding-left: 1.5vw;
+    padding-left: 3vw;
     background-color: #FBE080;
     display: flex;
     flex-direction: column;
@@ -171,15 +183,19 @@ header {
 }
 
 .navbox hr {
-    color: var(--alt-lt-color);
-    background-color: var(--alt-lt-color);
+    background-color: var(--main-color);
+    opacity: .75;
     border: none;
-    height: 2px;
+    height: 1px;
 }
 
 .nav-menu li {
     margin-left: 9vw;
 }
+.nav-menu p {
+    font-size: 1.25vw;
+}
+
 /* may not need on splash
 #navli1 a h3:hover, 
 #navli3 a h3:hover, 

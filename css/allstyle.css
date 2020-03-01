@@ -95,6 +95,7 @@ max-width: 100vw;
 main {
     position: relative;
     width: 100vw;
+    padding-top: 6vmin;
 }
 .stage {
     position: relative;
@@ -102,8 +103,8 @@ main {
 header {
     /*position: absolute;*/
     height: 13vmin;
+    min-height: 80px;
     width: 100%;
-    margin-bottom: 6vmin;
     background-color: #fff;
     z-index: -2;
     display: flex;
@@ -116,9 +117,9 @@ header {
     padding: 1vmin 2vmin;
     display: block;
 }
-.tagline h2 {
-    font-size: 1vw;
+.tagline h5 {
     color: var(--alt-lt-color);
+    text-transform: none;
 }
 /*final top position after splash*/
 #topline_bg {
@@ -127,38 +128,42 @@ header {
     background-color: var(--main-color);
     height: 2vmin;
     width: 100%;
-    margin: 0;
-    z-index: -2;
+    margin: 1vmin 0 0;
+    min-height: 1.5vmin;
+    z-index: 5;
 }
 /* final header position for logo*/
 #mainLogo {
     position: absolute;
-    top: 1vh;
     left: .25vw;
     width: 24vmin;
     height: 11vmin;
+    min-height: 50px;
     z-index: 5;
 }
+
 .navbox {
     position: fixed;
     opacity: 1;
     left: 90vw;
     width: 10vw;
-    min-width: 80px;
+    min-width: 120px;
     height: 35vh;
     max-height: 250px;
     top: 40vh;
     padding-left: 3vw;
+    padding-right: 1vw;
     background-color: #FBE080;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .navbox hr {
-    color: var(--alt-lt-color);
-    background-color: var(--alt-lt-color);
+    
+    background-color: var(--main-color);
+    opacity: .75;
     border: none;
-    height: 2px;
+    height: 1px;
 }
 /* - - position for animation - - 
 #navli1, #navli2, #navli3, #navli4, #navli5 {
@@ -176,6 +181,51 @@ header {
     color: var(--alt-lt-color);
     animation: slideOver 200ms ease-in forwards;
 }
+.nav-mobile {
+    margin-top: 2vmin;
+    background-color: #fff;
+    display: none;
+}
+.nav-mobile .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #FBE080;
+    justify-items: center;
+    align-items: end;
+}
+
+.nav-mobile .nav-menu li {
+    width: 50vw;
+    text-align: center;
+    border-bottom: 1.5px solid var(--main-color);
+    padding: 5px;
+}
+.nav-mobile .nav-menu li:first-child, 
+.nav-mobile .nav-menu li:nth-child(3) {
+    border-right: 1.5px solid var(--main-color);
+}
+.nav-menu p {
+    font-size: 1.25vw;
+}
+
+#hamburger {
+    width: 8vw;
+    height: 8vw;
+    min-height: 40px;
+    margin-right: 15px;
+    display: none;
+}
+#hamburger:hover {
+    cursor: pointer;
+    /*filter: grayscale(100%);*/
+}
+
+#hamburger:hover > #bg rect {
+    fill: #f7c100 !important;
+}
+#hamburger:hover > #stripes rect {
+    fill: #fff !important;
+}
 .social-icon {
     width: 3vw;
     max-width: 35px;
@@ -183,6 +233,7 @@ header {
     height: 3vw;
     border-radius: 50%;
     background-size: cover;
+    box-shadow: 2px 2px 2px #6f7c8e45;
 }
 .insta {
     background-image: url("../images/icons/insta-icon.svg");
@@ -204,6 +255,12 @@ header {
     border-top: 3px solid var(--hi-lt-color);
     border-bottom: 1px solid var(--main-color);
 }
+.footer-topline {
+    background-color: var(--main-color);
+    height: 1vmin;
+    width: 100%;
+    margin-top: 30px;
+}
 
 @keyframes slideOver {
     from {
@@ -214,12 +271,26 @@ header {
     }
 }
 
-@media only screen and (max-width: 758px) {
+@media only screen and (max-width: 768px) {
     .navbox {
         display: none;
     }
+    #hamburger {
+        display: block;
+    }
 }
-
+@media only screen and (max-width: 650px) {
+ #topline_bg {
+     top: 80px;
+ }
+ .tagline {
+     display: none;
+ }
+ #mainLogo {
+     height: 60px;
+     width: 120px;
+ }
+}
 footer {
 
     width: 80vw;
@@ -246,3 +317,8 @@ footer p {
     
 }
 
+@media only screen and (min-width: 769px) {
+    .nav-mobile {
+        display: none !important;
+    }
+}
