@@ -4,13 +4,17 @@
 $(document).ready(function(){
 
     $('body').css('display', 'none');
-    $('body').fadeIn(800);
+    $('body').fadeIn(500);
 
     // run test on initial page load
     checkSize();
 
     // run test on resize of the window
     $(window).resize(checkSize);
+
+    $("#hamburger").click(function(){
+        $(".nav-mobile").slideToggle(400);
+    })
 
 
     $(".close, .closeOne").click(function() {

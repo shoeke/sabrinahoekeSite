@@ -12,7 +12,34 @@ body {
         opacity: 1; 
      } 
 } 
-
+.hero {
+    width: 100vw;
+    padding: 15px 0;
+    background-color: #d4d9ff41;
+}
+.hero-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.hero-img{
+    background-image: url("../images/wwwVectorStock-01.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 65%;
+    height: 25vmin;
+    width: 20vw;
+}
+.hero-text {
+    width: 60vw;
+    padding: 0 4vw;
+    color: var(--alt-color);
+}
+.hero-text span {
+    font-weight: 500;
+}
 
 
 
@@ -38,6 +65,7 @@ body {
  .welcome-intro {
      grid-column: 1 / span 2;
  }
+ /*
  .welcome-image {
      background-image: url("../images/wwwVectorStock-01.svg");
      grid-column: 4 / span 1;
@@ -47,7 +75,7 @@ body {
      background-repeat: no-repeat;
      background-position: center;
 
- }
+ }*/
 
 .topic-cards {
     grid-column: 1 / span 3;
@@ -127,13 +155,16 @@ body {
     display: block;
     margin: 30px 0;
 } 
+.check-out {
+    text-decoration: underline;
+}
 @media only screen and (max-width: 1100px) {
     .welcome-grid {
         width: 72vw;
     }
 
 }
-@media only screen and (max-width: 758px) {
+@media only screen and (max-width: 768px) {
 
     .welcome-grid, .topic-cards {
         grid-template-columns: repeat(2, 1fr);

@@ -31,15 +31,44 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
             Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header>
-        <div id="topline_bg">
+        <header>
+            <div  id="topline_bg">
 
+            </div>
+            <img id = "mainLogo" src="images/hoeke-wdd-logo.svg" alt="Hoeke Web and Digital Design logo">
+            <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+                <title>hamburger</title>
+                <g id="bg">
+                  <rect x="-1" y="-1" width="77" height="78" style="fill: #fff"/>
+                </g>
+                <g id="stripes">
+                  <g>
+                    <rect x="7" y="10" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
+                    <rect x="7" y="54" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
+                    <rect x="7" y="32" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
+                  </g>
+                </g>
+              </svg>
+            <div class="tagline">
+                <h5>Start Simple, Start Right</h5>
+            </div>
+        </header>
+        <div class="nav-mobile">
+            <ul class="nav-menu">
+                <li class="mobile-nav-item" id="">
+                    <a href="welcome.html"><p>welcome</p></a>
+                </li>
+                <li class="mobile-nav-item" id="">
+                    <a href="work.html"><p>work</p></a>
+                </li>
+                <li class="mobile-nav-item" id="">
+                    <a href="about.html"><p>about</p></a>
+                </li>
+                <li class="mobile-nav-item" id="">
+                    <a href="index.html"><p>intro</p></a>
+                </li>
+            </ul>
         </div>
-        <img id="mainLogo" src="images/hoeke-wdd-logo.svg" alt="">
-        <div class="tagline">
-            <h5>Start Simple, Start Right</h5>
-        </div>
-    </header>
     <div class="main-contact">
         <div class="contact-container">
             <div class="conversation">
@@ -49,7 +78,7 @@
                     <h2>Let's Start a Conversation</h2>
                     <form class="contact-form" action="http://www.sabrinahoeke.com/cgi-sys/formmail.pl" method="post"
                         name="hgmailer">
-                        <input type="hidden" name="recipient" value="design@mydomain.com">
+                        <input type="hidden" name="recipient" value="design@sabrinahoeke.com">
                         <input type="hidden" name="subject" value="FormMail E-Mail">
 
                         <input type="text" id="fname" name="firstname" value="" placeholder="First name..">
@@ -73,15 +102,16 @@
                                 <li><input type="checkbox" id="website-design" name="website-design"
                                         value="Website-design">
                                     <label for="website-design">Website Design</label></li>
+                                <li><input type="checkbox" id="illo-icon" name="illo-icon" value="illo-icon">
+                                    <label for="illo-icon">Illustration/Icons</label></li>
                                 <li><input type="checkbox" id="website-implement" name="website-implement"
                                         value="Website-implement">
                                     <label for="website-implement">Website Implementation</label></li>
-                                <li><input type="checkbox" id="illo-icon" name="illo-icon" value="illo-icon">
-                                    <label for="illo-icon">Illustration / Icons</label></li>
+                                
                             </ul>
                         </div>
                         <textarea id="subject" name="subject" placeholder="Tell me more.."
-                            style="height:200px"></textarea>
+                            style="height:150px"></textarea>
 
                         <div class="submit-area">
                             <input id="mail-submit" type="button" value="Submit" onclick="hgsubmit();">
@@ -157,7 +187,9 @@
             </ul>
         </div>
     </nav>
+    <script src="js/page-behave.js" async defer></script>
 
+<!--
     <script type="text/javascript">
         function hgsubmit() {
             if (/\S+/.test(document.hgmailer.name.value) == false) alert("Please provide your name.");
@@ -168,7 +200,7 @@
                 alert(' Thank you! \n Your email is sent.');
             }
         }
-    </script>
+    </script>-->
 </body>
 
 </html>

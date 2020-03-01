@@ -12,7 +12,7 @@
      padding: 40px;
      border: 5px solid #6F7C8E55;
      background: #fff;
-     box-shadow: -3px 3px 5px lightgrey;
+     box-shadow: -3px 3px 5px #d3d3d378;
  }
 
 .contact-form, .help-cb {
@@ -20,8 +20,14 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
 }
+.contact-form input:nth-child(n+5), .help-with {
+    grid-column: 1 / span 2;
+}
 .help-cb {
     grid-gap: 3px;
+}
+.help-cb li:last-child {
+    grid-column: 1 / span 2;
 }
 
 
@@ -32,8 +38,6 @@ input[type=text], select, textarea {
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
@@ -85,11 +89,51 @@ input[type=text], select, textarea {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    box-shadow: -3px 3px 5px lightgrey;
+    box-shadow: -3px 3px 5px #d3d3d378;
   }
   .social-icon {
       box-shadow: 2px 2px 2px #6f7c8e80;
   }
-
+  @media only screen and (max-width: 768px) {
+   .contact-container {
+       width: 90vw;
+   }
+}
+@media only screen and (max-width: 500px) {
+    .contact-container, .contact-form, .help-cb {
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+    }
+    .conversation {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+    .contact-form input:nth-child(n+5), 
+    .help-with,
+    .help-cb li:last-child,
+    #subject,
+    .submit-area
+     {
+        grid-column: 1 / span 1;
+    }
+    .submit-area {
+        text-align: center;
+    }
+    .form-container {
+        padding: 20px;
+    }
+    .more-contact {
+        background-color: #6F7C8E55;
+        grid-column: 1 / 2; 
+        grid-row: 2 / 3; 
+        padding-right: 5px;
+    }
+    .more-contact .social-group {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 5px 0;
+    }
+}
   
   
