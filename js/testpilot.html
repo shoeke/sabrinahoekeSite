@@ -1,0 +1,27 @@
+<form id="contact_form" action="http://www.123contactform.com/" method="POST" onsubmit="return validateForm();" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+
+    <input id="name" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error"></span>
+  </div>
+
+
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+
+
+    <input id="email" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error"></span>
+  </div>
+
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+
+    
+    <span id="message_validation" class="error"></span>
+  </div>
+    
+    <input type="submit" value="Send email" />
+</form>

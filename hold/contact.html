@@ -76,19 +76,19 @@
                 <!--Host Gator Email Form -->
                 <div class="form-container">
                     <h2>Let's Start a Conversation</h2>
-                    <form class="contact-form" action="http://www.sabrinahoeke.com/cgi-sys/formmail.pl" method="post"
+                    <form class="contact-form" action="https://www.sabrinahoeke.com/cgi-sys/formmail.pl" method="post"
                         name="hgmailer">
                         <input type="hidden" name="recipient" value="design@sabrinahoeke.com">
                         <input type="hidden" name="subject" value="FormMail E-Mail">
 
-                        <input type="text" id="fname" name="firstname" value="" placeholder="First name..">
+                        <input type="text" id="fname" name="firstname" value="" placeholder="** First name.." required>
 
-                        <input type="text" id="lname" name="lastname" value="" placeholder="Your last name..">
+                        <input type="text" id="lname" name="lastname" value="" placeholder="** Last name.." required>
 
                         <input type="text" id="companyName" name="companyname" value=""
                             placeholder="Your company name..">
 
-                        <input type="text" id="bizType" name="businesstype" value="" placeholder="Type of business..">
+                        <input type="text" id="email" name="email" value="" placeholder="** Email address.." required>
 
                         <input type="text" id="website" name="website" value="" placeholder="Website address..">
 
@@ -112,10 +112,11 @@
                         </div>
                         <textarea id="subject" name="subject" placeholder="Tell me more.."
                             style="height:150px"></textarea>
+                        <div id="error"></div>    
 
                         <div class="submit-area">
-                            <input id="mail-submit" type="button" value="Submit" onclick="hgsubmit();">
-                            <input type="hidden" name="redirect" value="http://www.sabrinahoeke.com/redirect-path">
+                            <input id="mail-submit" type="button" value="Submit">
+                            <input type="hidden" name="redirect" value="https://www.sabrinahoeke.com/redirect-path">
                         </div>
                     </form>
                 </div>
@@ -209,7 +210,7 @@
             </ul>
         </div>
     </nav>
-    <script src="js/page-behave.js" async defer></script>
+    <script src="js/contact-behave.js" async defer></script>
 
 <!--
     <script type="text/javascript">

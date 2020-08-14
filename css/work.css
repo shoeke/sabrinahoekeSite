@@ -142,23 +142,26 @@ main {
 
  .work-intro {
 
-    width: 100vw;
+    width: 100%;
     background-color: #d4d9ff41;
     padding: 30px 0;
 }
 .work-intro-text {
-    width: 47vw;
-    margin-left: 19vw;
+    width: 65%;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .grid-wrap {
-    max-width: 75vw;
+    max-width: 80%;
     margin: 0 auto 4vw;
 }
 .grid-contain {
     display: grid;
     grid-template-columns: repeat(2, 28vw);
     grid-auto-rows: auto;
-    grid-gap: 5vw;
+    grid-column-gap: 5vw;
+    grid-row-gap: 7vw;
     justify-content: center;
 }
 .close:hover, .closeOne:hover, .grid-item:hover {
