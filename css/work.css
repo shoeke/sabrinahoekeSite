@@ -188,17 +188,20 @@ main {
     margin-bottom: -5px;
 }
 /* click for more on hover*/
-.click-text {
+.click-text, .proj-title {
     text-align: center;
-    margin-top: 2vw;
     color: var(--alt-lt-color);
-    display:none;
+    font-size: .65rem;
+    margin-top: 0;
 }
-.grid-item:first-child .click-text {
-    margin-top: 3vw;
-}
+
 .click-text span {
     font-weight: 600;
+}
+.proj-title {
+    color: var(--alt-color);
+    font-weight: bolder;
+    margin-top: 1em;
 }
 .work-image:hover + .click-text {
     display: block;
@@ -245,7 +248,6 @@ main {
         width: 34vw;
         display: flex;
         justify-content: flex-start;
-        margin: 1.5vw 0;
     }
     .descr-icons > div {
         width: 20%;
@@ -343,9 +345,7 @@ span.arrow {
         width: 61vw;
         margin: 0 auto;
     }
-    .click-text {
-        margin-top: 3vw;
-    }
+
     .modal-container {
         flex-direction: column;
         align-items: center;
@@ -381,7 +381,7 @@ span.arrow {
         width: 90vw;
     }
     .grid-contain {
-        grid-template-columns: 65vw;
+        grid-template-columns: 86%;
 }
     
 

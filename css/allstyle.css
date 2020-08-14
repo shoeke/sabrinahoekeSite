@@ -68,7 +68,7 @@ p,  .prop-list {
     line-height: 1.5;
     color: var(--alt-color);
     width: 90%;
-    margin: 1em auto;
+    margin: 1em auto 0;
 }
 ul {
     list-style: none;
@@ -185,7 +185,7 @@ padding-left: 2em;
 }
 
 .nav-menu p {
-    font-size: 1.25vw;
+    font-size: .75rem;
 }
 
 #hamburger {
@@ -306,13 +306,10 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
-    .footer-nav {
-        width: 100%;
+    .footer-nav, .sm-social {
+        width: 80%;
     }
-    .sm-social {
-        width: 75%;
-    }
-}
+
 
 @media only screen and (min-width: 769px) {
     .nav-mobile {
