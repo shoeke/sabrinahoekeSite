@@ -64,7 +64,12 @@ $(document).ready(function(){
 });
 
 
-
+// Working on mobile modal scrolling only when needed -- We listen to the resize event
+window.addEventListener('resize', () => {
+    // We execute the same script as before
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
 
 
 //Function to the css rule

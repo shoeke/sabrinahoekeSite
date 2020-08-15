@@ -213,6 +213,10 @@ main {
     z-index: 25;
     position: fixed;
     width: 100%;
+    height: auto;
+    max-height: 95vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     top: 1px;
     /*
     left: 50%;
