@@ -13,7 +13,7 @@ $(document).ready(function(){
     $(window).resize(checkSize);
 
 
-    $(".close, .tap-close").click(function() {
+    $(".close-x, .tap-close").click(function() {
         $(".modal-container").css("display", "none");
         $(".dark-bg").hide();
     });

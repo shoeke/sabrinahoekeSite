@@ -164,7 +164,7 @@ main {
 .grid-item:hover {
     transform: scale(1.15, 1.15);
 }
-.close:hover, .closeOne:hover, .grid-item:hover {
+.close-x:hover, .tap-close:hover, .grid-item:hover {
     cursor: pointer;
 }
 
@@ -213,14 +213,14 @@ main {
     z-index: 25;
     position: fixed;
     width: 100%;
+    max-width: 400px;
     height: auto;
-    max-height: 95vh;
+    max-height: 100vh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     top: 1px;
-    /*
     left: 50%;
-    transform: translate(-50%, -50%);*/
+    transform: translate(-50%);
     background-color: #ffffff;
     box-shadow: 0 0 0 1.5vw #fff;
     border: 5px solid var(--main-color);
@@ -309,16 +309,22 @@ main {
 .tap-close h6 {
     color: #fff;
 }
-.close {
-    border: 1px solid var(--alt-color);
-    color: var(--alt-color);
-    width: 2vw;
-    padding-top: .25vw;
-    font-size: 1.5vw;
-    text-align: center;
-    font-family: var(--serif-font);
-    align-self: flex-end;
+.close-x {
+    width: 3vw;
+    min-width: 1.5em;
+    max-width: 2em;
+    height: 3vw;
+    min-height: 1.5em;
+    max-height: 2em;
+    position: absolute;
+    right: .5em;
+    top: .5em;
+    background-image: url("../images/icons/close-x-01.svg");
+    background-size: cover;
+    box-shadow: 2px 2px 4px #6F7C8E3f, 1px 1px 3px #6F7C8E3f;
+    display: none;
 }
+
 /* link text / arrow to full sites*/
 .link-wrap {
     text-align: right;
@@ -356,6 +362,9 @@ span.arrow {
         max-width: 96%;
         margin: 0 auto;
     }
+    .modal-container {
+        width: 80%;
+    }
 }
 @media only screen and (min-width: 700px) {
     h2 {
@@ -369,6 +378,10 @@ span.arrow {
     .work-intro-text p {
         max-width: 40em;
     }
+    .modal-container {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 @media only screen and (min-width: 768px) {
     h1 {
@@ -380,12 +393,33 @@ span.arrow {
     .grid-contain {
         grid-template-columns: 78%;
     }
+    .modal-container {
+        width: 70%;
+    }
 }
 @media only screen and (min-width: 850px) {
 
-.grid-contain {
-    grid-template-columns: repeat(2, auto);
-    grid-row-gap: 2em;
+    .grid-contain {
+        grid-template-columns: repeat(2, auto);
+        grid-row-gap: 2em;
+    }
+    .modal-container {
+        width: 90%;
+        max-width: 100%;
+        flex-direction: row;
+        overflow-y: hidden;
+        padding: 1em;
+    }
+    .tap-close {
+        display: none;
+    }
+    .media, .descr {
+        width: 50%;
+    }
+    .close-x {
+        display: block;
+    }
+    
 }
 @media only screen and (min-width: 1200px) {
 
@@ -449,14 +483,6 @@ span.arrow {
     }*/
 
     /* close button for smaller screens only */
-.closeOne {
-    display: block;
-    width: 20px;
-    height: 20px;
-    font-size: 18px;
-    padding-top: 2px;
-    }
-}
 
     
 
