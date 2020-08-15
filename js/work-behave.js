@@ -12,12 +12,8 @@ $(document).ready(function(){
     // run test on resize of the window
     $(window).resize(checkSize);
 
-    $("#hamburger").click(function(){
-        $(".nav-mobile").slideToggle(400);
-    })
 
-
-    $(".close, .closeOne").click(function() {
+    $(".close, .tap-close").click(function() {
         $(".modal-container").css("display", "none");
         $(".dark-bg").hide();
     });
