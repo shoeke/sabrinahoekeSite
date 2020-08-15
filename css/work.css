@@ -134,26 +134,20 @@ main {
     top: 20vmin;
 }*/
 
-#navli3 a p {
-    margin-left: -15px;
-    color: var(--alt-lt-color);
-    font-size: 1rem;
- }
-
  .work-intro {
-
     width: 100%;
     background-color: #d4d9ff41;
     padding: 30px 0;
 }
 .work-intro-text {
-    width: 65%;
-    min-width: 300px;
-    max-width: 1200px;
+    width: 96%;
+    max-width: 28.125em;
     margin: 0 auto;
 }
+
 .grid-wrap {
-    max-width: 86%;
+    width: 86%;
+    max-width: 62em;
     margin: 0 auto 4vw;
 }
 .grid-contain {
@@ -197,7 +191,7 @@ main {
 .click-text, .proj-title {
     text-align: center;
     color: var(--alt-lt-color);
-    font-size: .65rem;
+    font-size: .85rem;
     margin-top: 0;
 }
 
@@ -339,14 +333,52 @@ span.arrow {
 }
 
 /*  - - - MEDIA QUERIES - - - */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px){
+    .work-intro-text {
+        width: 96%;
+        max-width: 96%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 700px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .work-intro-text {
+        width: 96%;
+        margin: 0 auto;
+    }
 
+    .work-intro-text p {
+        max-width: 40em;
+    }
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .work-intro-text {
+        max-width: 62em;
+    }
+    .grid-contain {
+        grid-template-columns: 78%;
+
+    }
 }
 @media only screen and (min-width: 850px) {
 
 .grid-contain {
-    grid-template-columns: repeat(2, 28vw);
+    grid-template-columns: repeat(2, auto);
 }
+@media only screen and (min-width: 1200px) {
+
+    .work-intro-text {
+        max-width: 90vw;
+    }
+    .work-intro-text h1 {
+        font-size: 3.5rem;
+    }
 
 /*
 @media only screen and (max-width: 768px){
