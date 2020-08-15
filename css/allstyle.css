@@ -245,9 +245,10 @@ padding-left: 2em;
 }
 .footer-contain {
     width: 100%;
+    max-width: 28em;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding: 10px;
     flex-direction: column;
     align-items: center;
 }
@@ -260,8 +261,13 @@ padding-left: 2em;
     align-items: center;
     padding-top: 5px;
 }
+.sm-social-list li {
+    width: 15%;
+    max-width: 2.5em;
+}
 .sm-social-list li img{
-    height: 25px;
+    width: 100%;
+    /*height: 25px;*/
 }
 
 @keyframes slideOver {
@@ -302,7 +308,15 @@ footer p {
     text-decoration: underline;
     
 }
-
+.bracket {
+    width: 106%;
+    height: 2em;
+    z-index: -10;
+    margin: 0 auto;
+    margin-left: -3%;
+    border-top: 6px solid var(--main-color);
+    position: relative;
+}
 
 @media only screen and (min-width: 768px) {
     .nav-mobile {
@@ -313,8 +327,20 @@ footer p {
     }
     .footer-contain {
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 10px;
+        max-width: 100%;
+        flex-direction: row;
+        padding-bottom: 0px;
+    }
+    .sm-social {
+        width: 40%;
+        max-width: 35em;
+    }
+    .footer-nav {
+        width: 40%;
+        max-width: 25em;
+    }
+    .bracket {
+        border-left: 6px solid var(--main-color);
+        border-right: 6px solid var(--main-color);
     }
 }

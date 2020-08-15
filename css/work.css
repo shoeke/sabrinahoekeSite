@@ -357,19 +357,18 @@ span.arrow {
     h1 {
         font-size: 3rem;
     }
-    
     .work-intro-text {
         max-width: 62em;
     }
     .grid-contain {
         grid-template-columns: 78%;
-
     }
 }
 @media only screen and (min-width: 850px) {
 
 .grid-contain {
     grid-template-columns: repeat(2, auto);
+    grid-row-gap: 2em;
 }
 @media only screen and (min-width: 1200px) {
 
