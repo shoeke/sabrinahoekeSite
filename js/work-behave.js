@@ -61,6 +61,11 @@ $(document).ready(function(){
         $(".dark-bg").fadeIn(400);
         $(".work8-modal").fadeIn(400);
     });
+    $(".work9").click(function() {
+        $(".work9-modal").css("display", "flex");
+        $(".dark-bg").fadeIn(400);
+        $(".work9-modal").fadeIn(400);
+    });
 });
 
 

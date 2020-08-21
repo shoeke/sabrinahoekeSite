@@ -251,6 +251,7 @@ main {
     .descr-icons {
         width: 34vw;
         display: none;
+        margin-top: 1em;
         justify-content: flex-start;
     }
     .descr-icons > div {
@@ -262,7 +263,6 @@ main {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-
         box-shadow: 2px 2px 6px #6F7C8E3f, -1px -1px 3px #6F7C8E0a;
     }
     .ani {
@@ -304,7 +304,7 @@ main {
     background-color: var(--main-color);
     text-align: center;
     text-transform: uppercase;
-    padding: 3px;
+    padding: 6px 0 3px;
 }
 .tap-close h6 {
     color: #fff;
@@ -412,6 +412,9 @@ span.arrow {
     }
     .tap-close {
         display: none;
+    }
+    .descr-icons {
+        display: flex;
     }
     .media, .descr {
         width: 50%;
