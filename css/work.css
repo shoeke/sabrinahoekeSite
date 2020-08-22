@@ -233,7 +233,6 @@ main {
     object-fit: contain;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 1em;
 }
     /* close button for smaller screens only */
@@ -487,5 +486,42 @@ span.arrow {
 
     /* close button for smaller screens only */
 
-    
-
+    .ani:hover {
+        animation: spin 750ms 1 linear;
+    }
+    .resp:hover {
+        animation: scaleup 750ms 1 ease-in-out;
+    }
+    .html:hover, .css:hover, .js:hover {
+        animation: moveup 550ms 1 ease-in-out;
+    }
+    .xd:hover, .wix:hover, .corvid:hover {
+        animation: movedown 550ms 1 ease-in-out;
+    }
+      
+      @keyframes spin {
+        25% {
+            transform: rotate(0) scale(1.25);
+        }
+        100% {
+            transform: rotate(1turn) scale(1);
+      }
+    }
+      @keyframes scaleup {
+          50% {
+              transform: scale(1.4);
+          }
+          100% {
+              transform: scale(1);
+          }
+      }
+      @keyframes moveup {
+          50% {
+            transform: translate(0,-12px);
+          }
+      }
+      @keyframes movedown {
+        50% {
+          transform: translate(0,12px);
+        }
+    }
