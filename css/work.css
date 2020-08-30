@@ -289,7 +289,7 @@ main {
         background-image: url("../images/icons/xd.svg");
     }
     .bs {
-        background-image: url("../image/icons/bs4-01.svg")
+        background-image: url("../images/icons/bs.svg")
     }
 
 /* RIGHT COLUMN OF MODAL*/
@@ -495,7 +495,7 @@ span.arrow {
     .resp:hover {
         animation: scaleup 750ms 1 ease-in-out;
     }
-    .html:hover, .css:hover, .js:hover {
+    .html:hover, .css:hover, .js:hover, .bs:hover {
         animation: moveup 550ms 1 ease-in-out;
     }
     .xd:hover, .wix:hover, .corvid:hover {
