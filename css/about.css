@@ -104,6 +104,11 @@ main-about {
 }
 .add-on figure img {
     width: 29vw;
+    box-shadow: 2px 2px 4px #6f7c8e45;
+    transition: transform 400ms ease-in-out;
+}
+.add-on figure img:hover {
+    transform: scale(1.75);
 }
 
 @media only screen and (max-width: 758px) {

@@ -188,6 +188,10 @@ padding-left: 2em;
 .nav-menu p {
     font-size: .85rem;
 }
+.nav-menu p:hover {
+    color: #F7C100;
+    border-bottom: 2px solid #d4d9ff;
+}
 
 #hamburger {
     width: 8vw;
@@ -206,17 +210,15 @@ padding-left: 2em;
     fill: #fff !important;
 }
 .social-icon {
-    /*
-    width: 3vw;
-    max-width: 35px;
-    max-height: 35px;
-    height: 3vw;
-    */
     width: 35px;
     height: 35px;
     border-radius: 50%;
     background-size: cover;
     box-shadow: 2px 2px 2px #6f7c8e45;
+    transition: transform 200ms ease-in-out;
+}
+.social-icon:hover {
+    transform: scale(1.25);
 }
 .insta {
     background-image: url("../images/icons/insta-icon.svg");
@@ -240,7 +242,7 @@ padding-left: 2em;
 }
 .footer-topline {
     background-color: var(--main-color);
-    height: 1vmin;
+    height: 3px;
     width: 100%;
 }
 .footer-contain {
@@ -268,6 +270,14 @@ padding-left: 2em;
 .sm-social-list li img{
     width: 100%;
     /*height: 25px;*/
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+}
+.sm-social-list li img:hover {
+    transform: scale(1.5);
+    padding: 1px;
+    box-shadow: 1px 2px 3px #6f7c8e45;
+   border: 1px solid #6f7c8e1b;
 }
 
 @keyframes slideOver {
@@ -278,11 +288,7 @@ padding-left: 2em;
     margin-left: -15px;
     }
 }
-
-
-
 footer {
-
     width: 80vw;
     margin: 2em auto 1em;
     display: flex;
@@ -304,9 +310,10 @@ footer p {
     justify-content: space-between; 
     padding: 11px; 
 }
-.footer-nav a {
-    text-decoration: underline;
-    
+
+.footer-nav li a:hover {
+    border-bottom: 2px solid #d4d9ff;
+    color: #F7C100;
 }
 .bracket {
     width: 106%;
