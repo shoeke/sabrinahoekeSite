@@ -288,6 +288,9 @@ main {
     .xd {
         background-image: url("../images/icons/xd.svg");
     }
+    .bs {
+        background-image: url("../image/icons/bs4-01.svg")
+    }
 
 /* RIGHT COLUMN OF MODAL*/
 .descr {
