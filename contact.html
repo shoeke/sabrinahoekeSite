@@ -23,6 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"
         integrity="sha256-MWsk0Zyox/iszpRSQk5a2iPLeWw0McNkGUAsHOyc/gE=" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b61b10e79b.js"></script>
 
 </head>
 
@@ -32,26 +33,30 @@
             Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <div  id="topline_bg">
-
+        
+            <div class="header-wrap">
+        
+                <div class="logo-contain">
+                    <a href="index.html"><img id="mainLogo" src="images/hoeke-wdd-logo.svg" alt="Hoeke Web and Digital Design logo"></a>
+                    
+                </div>        
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="about.html">
+                                <p>about</p>
+                            </a></li>
+                        <li><a href="contact.html">
+                                <p>contact</p>
+                            </a></li>
+                    </ul>
+                </nav>
             </div>
-            <img id = "mainLogo" src="images/hoeke-wdd-logo.svg" alt="Hoeke Web and Digital Design logo">
-            <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
-                <title>hamburger</title>
-                <g id="bg">
-                  <rect x="-1" y="-1" width="77" height="78" style="fill: #fff"/>
-                </g>
-                <g id="stripes">
-                  <g>
-                    <rect x="7" y="10" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
-                    <rect x="7" y="54" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
-                    <rect x="7" y="32" width="61" height="11" rx="1.96" style="fill: #f7c100"/>
-                  </g>
-                </g>
-              </svg>
-            <div class="tagline">
-                <h5>Start Simple, Start Right</h5>
+            <div id="topline_bg">
             </div>
+        
+            <!--<div class="tagline">
+                        <h5>Start Simple, Start Right</h5>
+                    </div>-->
         </header>
         <div class="nav-mobile">
             <ul class="nav-menu">
@@ -121,6 +126,7 @@
                     </form>
                 </div>
             </div>
+            <!-- NOT NEEDED NOW 
             <div class="more-contact">
                 <div class="social-group">
                     <a href="https://www.instagram.com/a.k.a._mubbles/"><div class="social-icon insta"></div></a>
@@ -128,7 +134,7 @@
                     <a href="https://twitter.com/akamubbles"><div class="social-icon twitter"></div></a>
                     <a href="https://www.linkedin.com/in/sabrina-hoeke-designer/"><div class="social-icon linkedin"></div></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <footer>
@@ -153,64 +159,26 @@
                 </ul>
             </div>
             <ul class="footer-nav">
-                <li><a href="welcome.html">welcome</a></li>
-    
-                <li><a href="work.html">work</a></li>
-    
+               
                 <li><a href="about.html">about</a></li>
     
                 <li><a href="contact.html">contact</a></li>
-    
-                <li><a href="index.html">intro</a></li>
     
                 <li><a
                         href="mailto:design@sabrinahoeke.com?subject=I'd%20love%20more%20information%20regarding%20.%20.%20.">email</a>
                 </li>
             </ul>
         </div>
-        
+        <div class="footer-topline"></div>
+
         <div class="copyright">
             <p class="">
                 &copy; 2017&#8211;2020 Sabrina Hoeke All rights reserved. No images may be used from this site without
                 permission.
             </p>
         </div>
-        
     </footer>
-    <nav>
-        <div class="navbox">
-            <ul class="nav-menu">
-                <li id="navli1"><a href="welcome.html">
-                        <p>welcome</p>
-                    </a></li>
-                <li id="navli2">
-                    <hr>
-                </li>
-                <li id="navli3"><a href="work.html">
-                        <p>work</p>
-                    </a></li>
-                <li id="navli4">
-                    <hr>
-                </li>
-                <li id="navli5"><a href="about.html">
-                        <p>about</p>
-                    </a></li>
-                <li id="navli6">
-                    <hr>
-                </li>
-                <li id="navli7"><a href="#">
-                        <p>contact</p>
-                    </a></li>
-                <li id="navli8">
-                    <hr>
-                </li>
-                <li id="navli9"><a href="index.html">
-                        <p>intro</p>
-                    </a></li>
-            </ul>
-        </div>
-    </nav>
-    <script src="js/contact-behave.js" async defer></script>
+
 
 <!--
     <script type="text/javascript">

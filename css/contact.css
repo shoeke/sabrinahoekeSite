@@ -49,6 +49,7 @@ input[type=text], select, textarea {
   }
   /* Style the submit button with a specific background color etc */
   #mail-submit {
+    width: 150px;
     background-color: var(--alt-color);
     color: white;
     padding: 12px 20px;
@@ -69,7 +70,7 @@ input[type=text], select, textarea {
     top: 10vh;*/
     margin: 6vmin auto;
     display: grid;
-    grid-template-columns: 1fr 45px;
+    grid-template-columns: 1fr;
     grid-auto-rows: 1fr;
 
 }
